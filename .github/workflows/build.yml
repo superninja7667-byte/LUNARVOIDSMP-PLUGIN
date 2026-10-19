@@ -1,0 +1,28 @@
+name: Build LUNARVOIDSMP plugin
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Java 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: maven
+      - name: Build plugin
+        run: mvn -B -ntp clean package
+      - name: Upload JAR artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: LUNARVOIDSMP-0.6.2-test
+          path: target/lunarvoidsmp-0.6.2-test.jar
+          if-no-files-found: error
