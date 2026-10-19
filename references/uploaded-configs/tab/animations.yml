@@ -1,0 +1,183 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+  - '&d-&3--------------'
+  - '&3-&d-&3-------------'
+  - '&3--&d-&3------------'
+  - '&3---&d-&3-----------'
+  - '&3----&d-&3----------'
+  - '&3-----&d-&3---------'
+  - '&3------&d-&3--------'
+  - '&3-------&d-&3-------'
+  - '&3--------&d-&3------'
+  - '&3---------&d-&3-----'
+  - '&3----------&d-&3----'
+  - '&3-----------&d-&3---'
+  - '&3------------&d-&3--'
+  - '&3-------------&d-&3-'
+  - '&3--------------&d-'
+  - '&3-------------&d-&3-'
+  - '&3------------&d-&3--'
+  - '&3-----------&d-&3---'
+  - '&3----------&d-&3----'
+  - '&3---------&d-&3-----'
+  - '&3--------&d-&3------'
+  - '&3-------&d-&3-------'
+  - '&3------&d-&3--------'
+  - '&3-----&d-&3---------'
+  - '&3----&d-&3----------'
+  - '&3---&d-&3-----------'
+  - '&3--&d-&3------------'
+  - '&3-&d-&3-------------'
+  - '&d-&3--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 200
+  texts:
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&6w&eww.domain.com'
+  - '&ew&6w&ew.domain.com'
+  - '&eww&6w&e.domain.com'
+  - '&ewww&6.&edomain.com'
+  - '&ewww.&6d&eomain.com'
+  - '&ewww.d&6o&emain.com'
+  - '&ewww.do&6m&eain.com'
+  - '&ewww.dom&6a&ein.com'
+  - '&ewww.doma&6i&en.com'
+  - '&ewww.domai&6n&e.com'
+  - '&ewww.domain&6.&ecom'
+  - '&ewww.domain.&6c&eom'
+  - '&ewww.domain.c&6o&em'
+  - '&ewww.domain.co&6m'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 3000
+  texts:
+  - '&7Time &b%time%'
+  - '&7Date &b%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+  - RED
+  - BLUE
+  - GREEN
+  - YELLOW
+lunarServer:
+  change-interval: 120
+  texts:
+  - '&#7DEBFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#7DEBFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#7DEBFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#7DEBFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#7DEBFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#7DEBFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#7DEBFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#7DEBFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#7DEBFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#7DEBFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#7DEBFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#7DEBFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#7DEBFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#7DEBFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#7DEBFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#7DEBFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#7DEBFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#7DEBFF&lX&#FFFFFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#7DEBFF&l.&#FFFFFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#7DEBFF&lG&#FFFFFF&lG'
+  - '&#FFFFFF&lL&#FFFFFF&lU&#FFFFFF&lN&#FFFFFF&lA&#FFFFFF&lR&#FFFFFF&lV&#FFFFFF&lO&#FFFFFF&lI&#FFFFFF&lD&#FFFFFF&lS&#FFFFFF&lM&#FFFFFF&lP&#FFFFFF&l.&#FFFFFF&lF&#FFFFFF&lA&#FFFFFF&lL&#FFFFFF&lI&#FFFFFF&lX&#FFFFFF&l.&#FFFFFF&lG&#7DEBFF&lG'
+lunarPlayer:
+  change-interval: 100
+  texts:
+  - '&f&lPlayer: &f&l%player%'
+lunarOnline:
+  change-interval: 100
+  texts:
+  - '&a&lOnline: &f&l%server_online%/%server_max_players%'
+lunarDivider:
+  change-interval: 100
+  texts:
+  - '&#FFFFFF&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#FFFFFF&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#FFFFFF&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#000000&l-&#FFFFFF&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#FFFFFF&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#FFFFFF&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#FFFFFF&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#FFFFFF&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#FFFFFF&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#FFFFFF&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#FFFFFF&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#FFFFFF&l-&#000000&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#FFFFFF&l-&#000000&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#FFFFFF&l-&#000000&l-'
+  - '&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#000000&l-&#FFFFFF&l-'
+lunarDiscord:
+  change-interval: 100
+  texts:
+  - '&#FF9B22&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#FF9B22&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#FF9B22&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#FF9B22&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#FF9B22&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#FF9B22&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#FF9B22&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#FF9B22&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#FF9B22&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#FF9B22&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#FF9B22&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#FF9B22&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#FF9B22&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#FF9B22&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#FF9B22&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#FF9B22&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#FF9B22&lj&#A51E1E&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#FF9B22&lC&#A51E1E&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#FF9B22&lS&#A51E1E&lU'
+  - '&#A51E1E&ld&#A51E1E&li&#A51E1E&ls&#A51E1E&lc&#A51E1E&lo&#A51E1E&lr&#A51E1E&ld&#A51E1E&l.&#A51E1E&lg&#A51E1E&lg&#A51E1E&l/&#A51E1E&lZ&#A51E1E&lt&#A51E1E&lg&#A51E1E&lF&#A51E1E&lb&#A51E1E&lj&#A51E1E&lC&#A51E1E&lS&#FF9B22&lU'

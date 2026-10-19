@@ -1,0 +1,64 @@
+# Empty prices automatically import the owner-supplied EconomyShopGUI sell table on startup.
+# Upgrades add a missing VAULT price at $30,000; explicitly configured prices are preserved.
+prices: {}
+# Format after owner approval:
+# prices:
+#   DIAMOND:
+#     buy: 'approved decimal amount'
+#     sell: 'approved decimal amount'
+# Sell amounts are per item, capped at $30,000.00; stacks multiply that amount.
+# Auction asking prices are independent and are not subject to this unit cap.
+# Plain, unmodified vanilla stacks only. Auctions preserve arbitrary item metadata.
+
+auction:
+  # Listings have no expiration time. Old duration-seconds values are ignored.
+  max-listings-per-player: 10
+  fee-percent: 0
+  # Limit and fee must be chosen before creating listings. Fee applies on a sale.
+  buy-confirmation-layout: purchase
+  # Purchases use the documented 3-row confirmation GUI and buy the whole stack.
+
+settings:
+  defaults:
+    rank_tag: false
+    item_price: false
+    night_vision: false
+    instant_rtp: false
+  # Other defaults remain unset; unset preserves existing behavior.
+
+menus:
+  # Zero-based inventory slots. -1 means placement awaiting confirmation.
+  # Approved main screenshot: 54 slots; Player head is at 45.
+  # Missing/-1 navigation values in older configs are upgraded to these slots.
+  navigation:
+    auction: 48
+    search: 49
+    settings: 50
+    pay: 53
+  auction-controls:
+    sort: 47
+    previous: 45
+    next: 53
+  # Screenshots show red panes at 19,20,21 and green at 23,24,25.
+  # Which red/green pane gets each step remains unconfirmed.
+  quantity-steps: {}
+  pay-confirmation:
+    cancel: -1
+    item: -1
+    confirm: -1
+  # Configure these only after approving the payment confirmation layout.
+
+tab:
+  # Copy EACH existing complete TAB line here, including its existing placeholders.
+  # Then replace that line in TAB with %lunar_line_money%, etc. See README.
+  # The plugin never overwrites TAB files or invents your scoreboard formatting.
+  lines: {}
+
+integration:
+  # BetterRTP/Essentials keep their own commands and safety/cooldown rules.
+  # No unapproved TPA, spawning, particles or notification semantics are assigned.
+  sign-timeout-seconds: 60
+
+# Optional own TAB replacement. Keep the TAB plugin until live parity is checked.
+own-tab:
+  enabled: false

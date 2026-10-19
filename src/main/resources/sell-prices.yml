@@ -1,0 +1,2477 @@
+prices:
+  ACACIA_BOAT:
+    sell: '1.45'
+  ACACIA_BUTTON:
+    sell: '0.29'
+  ACACIA_CHEST_BOAT:
+    sell: '3.96'
+  ACACIA_DOOR:
+    sell: '0.58'
+  ACACIA_FENCE:
+    sell: '1.47'
+  ACACIA_FENCE_GATE:
+    sell: '1.19'
+  ACACIA_HANGING_SIGN:
+    sell: '0.91'
+  ACACIA_LEAVES:
+    sell: '0.75'
+  ACACIA_LOG:
+    sell: '0.75'
+  ACACIA_PLANKS:
+    sell: '1.12'
+  ACACIA_PRESSURE_PLATE:
+    sell: '0.58'
+  ACACIA_SAPLING:
+    sell: '0.75'
+  ACACIA_SIGN:
+    sell: '0.63'
+  ACACIA_SLAB:
+    sell: '0.9'
+  ACACIA_STAIRS:
+    sell: '1.76'
+  ACACIA_TRAPDOOR:
+    sell: '0.87'
+  ACACIA_WOOD:
+    sell: '1.05'
+  ACTIVATOR_RAIL:
+    sell: '1.69'
+  ALLIUM:
+    sell: '0.25'
+  AMETHYST_BLOCK:
+    sell: '1.38'
+  AMETHYST_CLUSTER:
+    sell: '1.25'
+  AMETHYST_SHARD:
+    sell: '2.97'
+  ANCIENT_DEBRIS:
+    sell: '132.25'
+  ANDESITE:
+    sell: '0.18'
+  ANDESITE_SLAB:
+    sell: '0.1'
+  ANDESITE_STAIRS:
+    sell: '0.19'
+  ANDESITE_WALL:
+    sell: '0.19'
+  ANGLER_POTTERY_SHERD:
+    sell: '7.48'
+  ANVIL:
+    sell: '46.82'
+  APPLE:
+    sell: '10'
+  ARCHER_POTTERY_SHERD:
+    sell: '7.02'
+  ARMADILLO_SCUTE:
+    sell: '132.5'
+  ARMOR_STAND:
+    sell: '1.02'
+  ARMS_UP_POTTERY_SHERD:
+    sell: '6.01'
+  ARROW:
+    sell: '9.12'
+  AXOLOTL_BUCKET:
+    sell: '4.87'
+  AZALEA:
+    sell: '0.75'
+  AZALEA_LEAVES:
+    sell: '0.79'
+  AZURE_BLUET:
+    sell: '0.25'
+  BAKED_POTATO:
+    sell: '21.12'
+  BAMBOO:
+    sell: '0.12'
+  BAMBOO_BLOCK:
+    sell: '0.24'
+  BAMBOO_BUTTON:
+    sell: '0.14'
+  BAMBOO_CHEST_RAFT:
+    sell: '3.09'
+  BAMBOO_DOOR:
+    sell: '0.27'
+  BAMBOO_FENCE:
+    sell: '0.84'
+  BAMBOO_FENCE_GATE:
+    sell: '0.87'
+  BAMBOO_HANGING_SIGN:
+    sell: '0.75'
+  BAMBOO_MOSAIC:
+    sell: '0.14'
+  BAMBOO_MOSAIC_SLAB:
+    sell: '0.08'
+  BAMBOO_MOSAIC_STAIRS:
+    sell: '0.2'
+  BAMBOO_PLANKS:
+    sell: '0.52'
+  BAMBOO_PRESSURE_PLATE:
+    sell: '0.27'
+  BAMBOO_RAFT:
+    sell: '0.66'
+  BAMBOO_SIGN:
+    sell: '0.32'
+  BAMBOO_SLAB:
+    sell: '0.9'
+  BAMBOO_STAIRS:
+    sell: '0.8'
+  BAMBOO_TRAPDOOR:
+    sell: '0.4'
+  BARREL:
+    sell: '2.05'
+  BASALT:
+    sell: '0.92'
+  BEACON:
+    sell: '400.38'
+  BEEF:
+    sell: '1.5'
+  BEEHIVE:
+    sell: '4.22'
+  BEETROOT:
+    sell: '6'
+  BEETROOT_SEEDS:
+    sell: '0.75'
+  BEETROOT_SOUP:
+    sell: '9.68'
+  BEE_NEST:
+    sell: '10'
+  BELL:
+    sell: '250'
+  BIG_DRIPLEAF:
+    sell: '2.5'
+  BIRCH_BOAT:
+    sell: '1.45'
+  BIRCH_BUTTON:
+    sell: '0.29'
+  BIRCH_CHEST_BOAT:
+    sell: '3.96'
+  BIRCH_DOOR:
+    sell: '0.58'
+  BIRCH_FENCE:
+    sell: '1.47'
+  BIRCH_FENCE_GATE:
+    sell: '1.19'
+  BIRCH_HANGING_SIGN:
+    sell: '0.91'
+  BIRCH_LEAVES:
+    sell: '0.75'
+  BIRCH_LOG:
+    sell: '0.75'
+  BIRCH_PLANKS:
+    sell: '1.12'
+  BIRCH_PRESSURE_PLATE:
+    sell: '0.58'
+  BIRCH_SAPLING:
+    sell: '0.75'
+  BIRCH_SIGN:
+    sell: '0.63'
+  BIRCH_SLAB:
+    sell: '0.9'
+  BIRCH_STAIRS:
+    sell: '1.76'
+  BIRCH_TRAPDOOR:
+    sell: '0.87'
+  BIRCH_WOOD:
+    sell: '1.05'
+  BLACKSTONE:
+    sell: '0.19'
+  BLACKSTONE_SLAB:
+    sell: '0.1'
+  BLACKSTONE_STAIRS:
+    sell: '0.2'
+  BLACKSTONE_WALL:
+    sell: '0.2'
+  BLACK_BANNER:
+    sell: '46.46'
+  BLACK_BED:
+    sell: '24.03'
+  BLACK_BUNDLE:
+    sell: '5.7'
+  BLACK_CANDLE:
+    sell: '4.18'
+  BLACK_CARPET:
+    sell: '5.15'
+  BLACK_CONCRETE:
+    sell: '2.31'
+  BLACK_CONCRETE_POWDER:
+    sell: '2.01'
+  BLACK_DYE:
+    sell: '5.28'
+  BLACK_GLAZED_TERRACOTTA:
+    sell: '6.25'
+  BLACK_SHULKER_BOX:
+    sell: '7.79'
+  BLACK_STAINED_GLASS:
+    sell: '1.83'
+  BLACK_STAINED_GLASS_PANE:
+    sell: '0.72'
+  BLACK_TERRACOTTA:
+    sell: '5.96'
+  BLACK_WOOL:
+    sell: '16.48'
+  BLADE_POTTERY_SHERD:
+    sell: '7.48'
+  BLAST_FURNACE:
+    sell: '9.33'
+  BLAZE_POWDER:
+    sell: '10.56'
+  BLAZE_ROD:
+    sell: '5'
+  BLUE_BANNER:
+    sell: '46.46'
+  BLUE_BED:
+    sell: '24.03'
+  BLUE_BUNDLE:
+    sell: '5.3'
+  BLUE_CANDLE:
+    sell: '3.08'
+  BLUE_CARPET:
+    sell: '5.15'
+  BLUE_CONCRETE:
+    sell: '2.39'
+  BLUE_CONCRETE_POWDER:
+    sell: '2.08'
+  BLUE_DYE:
+    sell: '1.08'
+  BLUE_GLAZED_TERRACOTTA:
+    sell: '6.33'
+  BLUE_ICE:
+    sell: '15.19'
+  BLUE_ORCHID:
+    sell: '0.25'
+  BLUE_SHULKER_BOX:
+    sell: '6.69'
+  BLUE_STAINED_GLASS:
+    sell: '1.69'
+  BLUE_STAINED_GLASS_PANE:
+    sell: '0.67'
+  BLUE_TERRACOTTA:
+    sell: '6.03'
+  BLUE_WOOL:
+    sell: '16.48'
+  BOLT_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '97.49'
+  BONE:
+    sell: '24'
+  BONE_BLOCK:
+    sell: '4.97'
+  BONE_MEAL:
+    sell: '16.96'
+  BOOK:
+    sell: '8.91'
+  BOOKSHELF:
+    sell: '29.78'
+  BOW:
+    sell: '5.97'
+  BOWL:
+    sell: '0.22'
+  BRAIN_CORAL:
+    sell: '1.25'
+  BRAIN_CORAL_BLOCK:
+    sell: '4'
+  BRAIN_CORAL_FAN:
+    sell: '0.75'
+  BREAD:
+    sell: '63.04'
+  BREEZE_ROD:
+    sell: '20'
+  BREWER_POTTERY_SHERD:
+    sell: '6.01'
+  BREWING_STAND:
+    sell: '1.85'
+  BRICK:
+    sell: '5.52'
+  BRICKS:
+    sell: '23.16'
+  BRICK_SLAB:
+    sell: '12.16'
+  BRICK_STAIRS:
+    sell: '24.32'
+  BRICK_WALL:
+    sell: '24.32'
+  BROWN_BANNER:
+    sell: '46.46'
+  BROWN_BED:
+    sell: '24.03'
+  BROWN_BUNDLE:
+    sell: '5.4'
+  BROWN_CANDLE:
+    sell: '4.46'
+  BROWN_CARPET:
+    sell: '5.15'
+  BROWN_CONCRETE:
+    sell: '2.35'
+  BROWN_CONCRETE_POWDER:
+    sell: '2.04'
+  BROWN_DYE:
+    sell: '6.32'
+  BROWN_GLAZED_TERRACOTTA:
+    sell: '6.29'
+  BROWN_MUSHROOM:
+    sell: '0.5'
+  BROWN_MUSHROOM_BLOCK:
+    sell: '0.02'
+  BROWN_SHULKER_BOX:
+    sell: '8.07'
+  BROWN_STAINED_GLASS:
+    sell: '1.87'
+  BROWN_STAINED_GLASS_PANE:
+    sell: '0.74'
+  BROWN_TERRACOTTA:
+    sell: '5.99'
+  BROWN_WOOL:
+    sell: '16.48'
+  BRUSH:
+    sell: '1.97'
+  BUBBLE_CORAL:
+    sell: '1.25'
+  BUBBLE_CORAL_BLOCK:
+    sell: '4'
+  BUBBLE_CORAL_FAN:
+    sell: '0.75'
+  BUCKET:
+    sell: '4.35'
+  BUNDLE:
+    sell: '5.2'
+  BURN_POTTERY_SHERD:
+    sell: '7.35'
+  CACTUS:
+    sell: '0.12'
+  CAKE:
+    sell: '19.83'
+  CALCITE:
+    sell: '0.5'
+  CALIBRATED_SCULK_SENSOR:
+    sell: '4.19'
+  CAMPFIRE:
+    sell: '4.2'
+  CANDLE:
+    sell: '2.67'
+  CARROT:
+    sell: '5'
+  CARROT_ON_A_STICK:
+    sell: '1.77'
+  CARTOGRAPHY_TABLE:
+    sell: '1.22'
+  CARVED_PUMPKIN:
+    sell: '1.5'
+  CAULDRON:
+    sell: '7.24'
+  IRON_CHAIN:
+    sell: '1.76'
+  CHAINMAIL_BOOTS:
+    sell: '10'
+  CHAINMAIL_CHESTPLATE:
+    sell: '15'
+  CHAINMAIL_HELMET:
+    sell: '10'
+  CHAINMAIL_LEGGINGS:
+    sell: '15'
+  CHARCOAL:
+    sell: '1.58'
+  CHERRY_BOAT:
+    sell: '1.04'
+  CHERRY_BUTTON:
+    sell: '0.21'
+  CHERRY_CHEST_BOAT:
+    sell: '3.52'
+  CHERRY_FENCE:
+    sell: '1.47'
+  CHERRY_FENCE_GATE:
+    sell: '1.19'
+  CHERRY_HANGING_SIGN:
+    sell: '0.83'
+  CHERRY_LEAVES:
+    sell: '0.75'
+  CHERRY_LOG:
+    sell: '0.75'
+  CHERRY_PLANKS:
+    sell: '0.8'
+  CHERRY_PRESSURE_PLATE:
+    sell: '0.42'
+  CHERRY_SAPLING:
+    sell: '0.75'
+  CHERRY_SIGN:
+    sell: '0.47'
+  CHERRY_SLAB:
+    sell: '0.66'
+  CHERRY_STAIRS:
+    sell: '1.28'
+  CHERRY_TRAPDOOR:
+    sell: '0.63'
+  CHERRY_WOOD:
+    sell: '1.05'
+  CHEST:
+    sell: '2.32'
+  CHEST_MINECART:
+    sell: '10.03'
+  CHICKEN:
+    sell: '1.5'
+  CHISELED_BOOKSHELF:
+    sell: '2.2'
+  CHISELED_COPPER:
+    sell: '0.26'
+  CHISELED_DEEPSLATE:
+    sell: '0.19'
+  CHISELED_NETHER_BRICKS:
+    sell: '0.13'
+  CHISELED_POLISHED_BLACKSTONE:
+    sell: '0.2'
+  CHISELED_QUARTZ_BLOCK:
+    sell: '9.12'
+  CHISELED_RED_SANDSTONE:
+    sell: '8.82'
+  CHISELED_SANDSTONE:
+    sell: '3.15'
+  CHISELED_STONE_BRICKS:
+    sell: '0.19'
+  CHISELED_TUFF:
+    sell: '0.53'
+  CHISELED_TUFF_BRICKS:
+    sell: '0.53'
+  CHORUS_FLOWER:
+    sell: '0.25'
+  CHORUS_FRUIT:
+    sell: '3'
+  CLAY:
+    sell: '5.25'
+  CLAY_BALL:
+    sell: '1.25'
+  COAL:
+    sell: '11.88'
+  COAL_BLOCK:
+    sell: '12.41'
+  COAL_ORE:
+    sell: '1.93'
+  COARSE_DIRT:
+    sell: '1.45'
+  COAST_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '48.33'
+  COBBLED_DEEPSLATE:
+    sell: '0.17'
+  COBBLED_DEEPSLATE_SLAB:
+    sell: '0.09'
+  COBBLED_DEEPSLATE_STAIRS:
+    sell: '0.18'
+  COBBLED_DEEPSLATE_WALL:
+    sell: '0.18'
+  COBBLESTONE:
+    sell: '0.17'
+  COBBLESTONE_SLAB:
+    sell: '0.09'
+  COBBLESTONE_STAIRS:
+    sell: '0.18'
+  COBBLESTONE_WALL:
+    sell: '0.18'
+  COBWEB:
+    sell: '10'
+  COCOA_BEANS:
+    sell: '1.5'
+  COD:
+    sell: '1.5'
+  COD_BUCKET:
+    sell: '6.45'
+  COMPARATOR:
+    sell: '6.11'
+  COMPASS:
+    sell: '6.71'
+  COMPOSTER:
+    sell: '1.07'
+  CONDUIT:
+    sell: '522.71'
+  COOKED_BEEF:
+    sell: '12.64'
+  COOKED_CHICKEN:
+    sell: '12.64'
+  COOKED_COD:
+    sell: '12.64'
+  COOKED_MUTTON:
+    sell: '12.64'
+  COOKED_PORKCHOP:
+    sell: '12.64'
+  COOKED_RABBIT:
+    sell: '6.32'
+  COOKED_SALMON:
+    sell: '12.64'
+  COOKIE:
+    sell: '8.48'
+  COPPER_AXE:
+    sell: '0.97'
+  COPPER_BLOCK:
+    sell: '0.97'
+  COPPER_BOOTS:
+    sell: '1.02'
+  COPPER_BULB:
+    sell: '1.32'
+  COPPER_CHEST:
+    sell: '5.82'
+  COPPER_CHESTPLATE:
+    sell: '1.95'
+  COPPER_DOOR:
+    sell: '2.03'
+  COPPER_GRATE:
+    sell: '0.26'
+  COPPER_HELMET:
+    sell: '1.27'
+  COPPER_HOE:
+    sell: '0.77'
+  COPPER_HORSE_ARMOR:
+    sell: '28.6'
+  COPPER_INGOT:
+    sell: '2.07'
+  COPPER_LEGGINGS:
+    sell: '1.72'
+  COPPER_NAUTILUS_ARMOR:
+    sell: '42.5'
+  COPPER_PICKAXE:
+    sell: '0.97'
+  COPPER_SHOVEL:
+    sell: '0.54'
+  COPPER_SPEAR:
+    sell: '0.54'
+  COPPER_SWORD:
+    sell: '0.77'
+  COPPER_TRAPDOOR:
+    sell: '3.04'
+  CORNFLOWER:
+    sell: '0.25'
+  CRACKED_DEEPSLATE_BRICKS:
+    sell: '0.2'
+  CRACKED_DEEPSLATE_TILES:
+    sell: '0.21'
+  CRACKED_NETHER_BRICKS:
+    sell: '0.24'
+  CRACKED_POLISHED_BLACKSTONE_BRICKS:
+    sell: '0.21'
+  CRACKED_STONE_BRICKS:
+    sell: '0.2'
+  CRAFTER:
+    sell: '12.57'
+  CRAFTING_TABLE:
+    sell: '1.16'
+  CREEPER_BANNER_PATTERN:
+    sell: '157.53'
+  CREEPER_HEAD:
+    sell: '150'
+  CRIMSON_BUTTON:
+    sell: '0.21'
+  CRIMSON_DOOR:
+    sell: '0.42'
+  CRIMSON_FENCE:
+    sell: '1.47'
+  CRIMSON_FENCE_GATE:
+    sell: '1.19'
+  CRIMSON_FUNGUS:
+    sell: '1.5'
+  CRIMSON_HANGING_SIGN:
+    sell: '0.83'
+  CRIMSON_HYPHAE:
+    sell: '1.05'
+  CRIMSON_NYLIUM:
+    sell: '1.5'
+  CRIMSON_PLANKS:
+    sell: '0.8'
+  CRIMSON_PRESSURE_PLATE:
+    sell: '0.42'
+  CRIMSON_ROOTS:
+    sell: '1.25'
+  CRIMSON_SIGN:
+    sell: '0.47'
+  CRIMSON_SLAB:
+    sell: '0.66'
+  CRIMSON_STAIRS:
+    sell: '1.28'
+  CRIMSON_STEM:
+    sell: '0.75'
+  CRIMSON_TRAPDOOR:
+    sell: '0.63'
+  CROSSBOW:
+    sell: '6.57'
+  CRYING_OBSIDIAN:
+    sell: '15.63'
+  CUT_COPPER:
+    sell: '1.02'
+  CUT_COPPER_SLAB:
+    sell: '0.13'
+  CUT_COPPER_STAIRS:
+    sell: '0.26'
+  CUT_RED_SANDSTONE:
+    sell: '8.82'
+  CUT_RED_SANDSTONE_SLAB:
+    sell: '4.41'
+  CUT_SANDSTONE:
+    sell: '3.15'
+  CUT_SANDSTONE_SLAB:
+    sell: '1.58'
+  CYAN_BANNER:
+    sell: '46.46'
+  CYAN_BED:
+    sell: '24.03'
+  CYAN_BUNDLE:
+    sell: '5.26'
+  CYAN_CANDLE:
+    sell: '2.96'
+  CYAN_CARPET:
+    sell: '5.15'
+  CYAN_CONCRETE:
+    sell: '2.14'
+  CYAN_CONCRETE_POWDER:
+    sell: '1.86'
+  CYAN_DYE:
+    sell: '0.64'
+  CYAN_GLAZED_TERRACOTTA:
+    sell: '6.1'
+  CYAN_SHULKER_BOX:
+    sell: '6.58'
+  CYAN_STAINED_GLASS:
+    sell: '1.68'
+  CYAN_STAINED_GLASS_PANE:
+    sell: '0.66'
+  CYAN_TERRACOTTA:
+    sell: '5.81'
+  CYAN_WOOL:
+    sell: '16.48'
+  DANDELION:
+    sell: '0.25'
+  DANGER_POTTERY_SHERD:
+    sell: '7.35'
+  DARK_OAK_BOAT:
+    sell: '1.45'
+  DARK_OAK_BUTTON:
+    sell: '0.29'
+  DARK_OAK_CHEST_BOAT:
+    sell: '3.96'
+  DARK_OAK_DOOR:
+    sell: '0.58'
+  DARK_OAK_FENCE:
+    sell: '1.47'
+  DARK_OAK_FENCE_GATE:
+    sell: '1.19'
+  DARK_OAK_HANGING_SIGN:
+    sell: '0.91'
+  DARK_OAK_LEAVES:
+    sell: '0.75'
+  DARK_OAK_LOG:
+    sell: '0.75'
+  DARK_OAK_PLANKS:
+    sell: '1.12'
+  DARK_OAK_PRESSURE_PLATE:
+    sell: '0.58'
+  DARK_OAK_SAPLING:
+    sell: '0.75'
+  DARK_OAK_SIGN:
+    sell: '0.63'
+  DARK_OAK_SLAB:
+    sell: '0.9'
+  DARK_OAK_STAIRS:
+    sell: '1.76'
+  DARK_OAK_TRAPDOOR:
+    sell: '0.87'
+  DARK_OAK_WOOD:
+    sell: '1.05'
+  DARK_PRISMARINE:
+    sell: '16.02'
+  DARK_PRISMARINE_SLAB:
+    sell: '8.41'
+  DARK_PRISMARINE_STAIRS:
+    sell: '16.82'
+  DAYLIGHT_DETECTOR:
+    sell: '11.93'
+  DEAD_BRAIN_CORAL:
+    sell: '1.25'
+  DEAD_BRAIN_CORAL_BLOCK:
+    sell: '4'
+  DEAD_BRAIN_CORAL_FAN:
+    sell: '0.75'
+  DEAD_BUBBLE_CORAL:
+    sell: '1.25'
+  DEAD_BUBBLE_CORAL_BLOCK:
+    sell: '4'
+  DEAD_BUBBLE_CORAL_FAN:
+    sell: '0.75'
+  DEAD_BUSH:
+    sell: '7.5'
+  DEAD_FIRE_CORAL:
+    sell: '1.25'
+  DEAD_FIRE_CORAL_BLOCK:
+    sell: '4'
+  DEAD_FIRE_CORAL_FAN:
+    sell: '0.75'
+  DEAD_HORN_CORAL:
+    sell: '1.25'
+  DEAD_HORN_CORAL_BLOCK:
+    sell: '4'
+  DEAD_HORN_CORAL_FAN:
+    sell: '0.75'
+  DEAD_TUBE_CORAL:
+    sell: '1.25'
+  DEAD_TUBE_CORAL_BLOCK:
+    sell: '4'
+  DEAD_TUBE_CORAL_FAN:
+    sell: '0.75'
+  DECORATED_POT:
+    sell: '23.16'
+  DEEPSLATE:
+    sell: '0.18'
+  DEEPSLATE_BRICKS:
+    sell: '0.19'
+  DEEPSLATE_BRICK_SLAB:
+    sell: '0.1'
+  DEEPSLATE_BRICK_STAIRS:
+    sell: '0.2'
+  DEEPSLATE_BRICK_WALL:
+    sell: '0.2'
+  DEEPSLATE_COAL_ORE:
+    sell: '5'
+  DEEPSLATE_COPPER_ORE:
+    sell: '3.75'
+  DEEPSLATE_DIAMOND_ORE:
+    sell: '50'
+  DEEPSLATE_EMERALD_ORE:
+    sell: '37.5'
+  DEEPSLATE_GOLD_ORE:
+    sell: '7.5'
+  DEEPSLATE_IRON_ORE:
+    sell: '5'
+  DEEPSLATE_LAPIS_ORE:
+    sell: '13.75'
+  DEEPSLATE_REDSTONE_ORE:
+    sell: '5'
+  DEEPSLATE_TILES:
+    sell: '0.2'
+  DEEPSLATE_TILE_SLAB:
+    sell: '0.11'
+  DEEPSLATE_TILE_STAIRS:
+    sell: '0.21'
+  DEEPSLATE_TILE_WALL:
+    sell: '0.21'
+  DETECTOR_RAIL:
+    sell: '1.67'
+  DIAMOND:
+    sell: '118.17'
+  DIAMOND_AXE:
+    sell: '41.65'
+  DIAMOND_BLOCK:
+    sell: '124.04'
+  DIAMOND_BOOTS:
+    sell: '55.13'
+  DIAMOND_CHESTPLATE:
+    sell: '110.25'
+  DIAMOND_HELMET:
+    sell: '68.91'
+  DIAMOND_HOE:
+    sell: '27.87'
+  DIAMOND_HORSE_ARMOR:
+    sell: '562.5'
+  DIAMOND_LEGGINGS:
+    sell: '96.47'
+  DIAMOND_NAUTILUS_ARMOR:
+    sell: '925'
+  DIAMOND_PICKAXE:
+    sell: '41.65'
+  DIAMOND_SHOVEL:
+    sell: '14.09'
+  DIAMOND_SPEAR:
+    sell: '14.09'
+  DIAMOND_SWORD:
+    sell: '27.72'
+  DIORITE:
+    sell: '0.18'
+  DIORITE_SLAB:
+    sell: '0.1'
+  DIORITE_STAIRS:
+    sell: '0.19'
+  DIORITE_WALL:
+    sell: '0.19'
+  DIRT:
+    sell: '0.75'
+  DISC_FRAGMENT_5:
+    sell: '25'
+  DISPENSER:
+    sell: '8.44'
+  DRAGON_BREATH:
+    sell: '27.49'
+  DRAGON_EGG:
+    sell: '1250'
+  DRAGON_HEAD:
+    sell: '1250'
+  DRIED_KELP:
+    sell: '0.03'
+  DRIED_KELP_BLOCK:
+    sell: '0.25'
+  DRIPSTONE_BLOCK:
+    sell: '0.25'
+  DROPPER:
+    sell: '2.17'
+  DUNE_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '49.81'
+  ECHO_SHARD:
+    sell: '25'
+  EGG:
+    sell: '5'
+  EMERALD:
+    sell: '88.65'
+  EMERALD_BLOCK:
+    sell: '93.03'
+  ENCHANTED_GOLDEN_APPLE:
+    sell: '2500'
+  ENCHANTING_TABLE:
+    sell: '69.73'
+  ENDER_CHEST:
+    sell: '68.28'
+  ENDER_EYE:
+    sell: '2.53'
+  ENDER_PEARL:
+    sell: '7'
+  END_CRYSTAL:
+    sell: '24.73'
+  END_ROD:
+    sell: '0.54'
+  END_STONE:
+    sell: '1.25'
+  END_STONE_BRICKS:
+    sell: '1.32'
+  END_STONE_BRICK_SLAB:
+    sell: '0.66'
+  END_STONE_BRICK_STAIRS:
+    sell: '1.32'
+  END_STONE_BRICK_WALL:
+    sell: '1.32'
+  EXPLORER_POTTERY_SHERD:
+    sell: '7.48'
+  EXPOSED_CHISELED_COPPER:
+    sell: '0.27'
+  EXPOSED_COPPER:
+    sell: '1.02'
+  EXPOSED_COPPER_BULB:
+    sell: '1.36'
+  EXPOSED_COPPER_DOOR:
+    sell: '2.13'
+  EXPOSED_COPPER_GRATE:
+    sell: '0.27'
+  EXPOSED_COPPER_TRAPDOOR:
+    sell: '3.2'
+  EXPOSED_CUT_COPPER:
+    sell: '1.07'
+  EXPOSED_CUT_COPPER_SLAB:
+    sell: '0.04'
+  EXPOSED_CUT_COPPER_STAIRS:
+    sell: '0.07'
+  EYE_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '48.9'
+  FEATHER:
+    sell: '24'
+  FERMENTED_SPIDER_EYE:
+    sell: '9.6'
+  FERN:
+    sell: '1.5'
+  FIREWORK_ROCKET:
+    sell: '1.37'
+  FIREWORK_STAR:
+    sell: '4.35'
+  FIRE_CHARGE:
+    sell: '2.05'
+  FIRE_CORAL:
+    sell: '1.25'
+  FIRE_CORAL_BLOCK:
+    sell: '4'
+  FIRE_CORAL_FAN:
+    sell: '0.75'
+  FISHING_ROD:
+    sell: '4.14'
+  FLETCHING_TABLE:
+    sell: '2.21'
+  FLINT:
+    sell: '0.5'
+  FLINT_AND_STEEL:
+    sell: '1.98'
+  FLOWERING_AZALEA:
+    sell: '0.75'
+  FLOWERING_AZALEA_LEAVES:
+    sell: '0.79'
+  FLOWER_BANNER_PATTERN:
+    sell: '0.3'
+  FLOWER_POT:
+    sell: '17.37'
+  FLOW_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '101.72'
+  FLOW_BANNER_PATTERN:
+    sell: '300'
+  FLOW_POTTERY_SHERD:
+    sell: '8.02'
+  FRIEND_POTTERY_SHERD:
+    sell: '7.35'
+  FURNACE:
+    sell: '1.43'
+  FURNACE_MINECART:
+    sell: '9.1'
+  GHAST_TEAR:
+    sell: '10'
+  GILDED_BLACKSTONE:
+    sell: '4.25'
+  GLASS:
+    sell: '1.58'
+  GLASS_BOTTLE:
+    sell: '14.94'
+  GLASS_PANE:
+    sell: '0.63'
+  GLISTERING_MELON_SLICE:
+    sell: '2'
+  GLOBE_BANNER_PATTERN:
+    sell: '82.69'
+  GLOWSTONE:
+    sell: '7.35'
+  GLOWSTONE_DUST:
+    sell: '15.75'
+  GLOW_BERRIES:
+    sell: '1'
+  GLOW_INK_SAC:
+    sell: '1.38'
+  GLOW_ITEM_FRAME:
+    sell: '11.99'
+  GLOW_LICHEN:
+    sell: '0.25'
+  GOAT_HORN:
+    sell: '25'
+  GOLDEN_APPLE:
+    sell: '19.99'
+  GOLDEN_AXE:
+    sell: '6.82'
+  GOLDEN_BOOTS:
+    sell: '8.69'
+  GOLDEN_CARROT:
+    sell: '12.2'
+  GOLDEN_CHESTPLATE:
+    sell: '17.37'
+  GOLDEN_HELMET:
+    sell: '10.86'
+  GOLDEN_HOE:
+    sell: '4.65'
+  GOLDEN_HORSE_ARMOR:
+    sell: '193.75'
+  GOLDEN_LEGGINGS:
+    sell: '15.2'
+  GOLDEN_NAUTILUS_ARMOR:
+    sell: '450'
+  GOLDEN_PICKAXE:
+    sell: '6.82'
+  GOLDEN_SHOVEL:
+    sell: '2.48'
+  GOLDEN_SPEAR:
+    sell: '2.48'
+  GOLDEN_SWORD:
+    sell: '4.5'
+  GOLD_BLOCK:
+    sell: '19.54'
+  GOLD_INGOT:
+    sell: '18.63'
+  GOLD_NUGGET:
+    sell: '0.21'
+  GRANITE:
+    sell: '0.18'
+  GRANITE_SLAB:
+    sell: '0.1'
+  GRANITE_STAIRS:
+    sell: '0.19'
+  GRANITE_WALL:
+    sell: '0.19'
+  GRASS_BLOCK:
+    sell: '2'
+  GRAVEL:
+    sell: '2'
+  GRAY_BANNER:
+    sell: '46.46'
+  GRAY_BED:
+    sell: '24.03'
+  GRAY_BUNDLE:
+    sell: '5.26'
+  GRAY_CANDLE:
+    sell: '3.75'
+  GRAY_CARPET:
+    sell: '5.15'
+  GRAY_CONCRETE:
+    sell: '2.25'
+  GRAY_CONCRETE_POWDER:
+    sell: '1.96'
+  GRAY_DYE:
+    sell: '3.64'
+  GRAY_GLAZED_TERRACOTTA:
+    sell: '6.21'
+  GRAY_SHULKER_BOX:
+    sell: '7.36'
+  GRAY_STAINED_GLASS:
+    sell: '1.78'
+  GRAY_STAINED_GLASS_PANE:
+    sell: '0.7'
+  GRAY_TERRACOTTA:
+    sell: '5.91'
+  GRAY_WOOL:
+    sell: '16.48'
+  GREEN_BANNER:
+    sell: '46.46'
+  GREEN_BED:
+    sell: '24.03'
+  GREEN_BUNDLE:
+    sell: '5.21'
+  GREEN_CANDLE:
+    sell: '2.83'
+  GREEN_CARPET:
+    sell: '5.15'
+  GREEN_CONCRETE:
+    sell: '2.13'
+  GREEN_CONCRETE_POWDER:
+    sell: '1.85'
+  GREEN_DYE:
+    sell: '0.12'
+  GREEN_GLAZED_TERRACOTTA:
+    sell: '6.09'
+  GREEN_SHULKER_BOX:
+    sell: '6.44'
+  GREEN_STAINED_GLASS:
+    sell: '1.66'
+  GREEN_STAINED_GLASS_PANE:
+    sell: '0.66'
+  GREEN_TERRACOTTA:
+    sell: '5.8'
+  GREEN_WOOL:
+    sell: '16.48'
+  GRINDSTONE:
+    sell: '0.99'
+  GUNPOWDER:
+    sell: '62.08'
+  GUSTER_BANNER_PATTERN:
+    sell: '200'
+  GUSTER_POTTERY_SHERD:
+    sell: '8.02'
+  HANGING_ROOTS:
+    sell: '0.25'
+  HAY_BLOCK:
+    sell: '11.82'
+  HEARTBREAK_POTTERY_SHERD:
+    sell: '7.35'
+  HEART_OF_THE_SEA:
+    sell: '137.82'
+  HEART_POTTERY_SHERD:
+    sell: '7.35'
+  HEAVY_WEIGHTED_PRESSURE_PLATE:
+    sell: '2.9'
+  HONEYCOMB:
+    sell: '3.16'
+  HONEYCOMB_BLOCK:
+    sell: '3.31'
+  HONEY_BLOCK:
+    sell: '8.34'
+  HONEY_BOTTLE:
+    sell: '1.99'
+  HOPPER:
+    sell: '9.67'
+  HOPPER_MINECART:
+    sell: '17.75'
+  HORN_CORAL:
+    sell: '1.25'
+  HORN_CORAL_BLOCK:
+    sell: '4'
+  HORN_CORAL_FAN:
+    sell: '0.75'
+  HOST_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '51.13'
+  HOWL_POTTERY_SHERD:
+    sell: '7.35'
+  ICE:
+    sell: '0.75'
+  INK_SAC:
+    sell: '1.25'
+  IRON_AXE:
+    sell: '4.65'
+  IRON_BARS:
+    sell: '0.55'
+  IRON_BLOCK:
+    sell: '13.03'
+  IRON_BOOTS:
+    sell: '5.79'
+  IRON_CHESTPLATE:
+    sell: '11.58'
+  IRON_DOOR:
+    sell: '1.45'
+  IRON_HELMET:
+    sell: '7.24'
+  IRON_HOE:
+    sell: '3.2'
+  IRON_HORSE_ARMOR:
+    sell: '43.75'
+  IRON_INGOT:
+    sell: '12.42'
+  IRON_LEGGINGS:
+    sell: '10.13'
+  IRON_NAUTILUS_ARMOR:
+    sell: '250'
+  IRON_NUGGET:
+    sell: '0.15'
+  IRON_PICKAXE:
+    sell: '4.65'
+  IRON_SHOVEL:
+    sell: '1.76'
+  IRON_SPEAR:
+    sell: '1.76'
+  IRON_SWORD:
+    sell: '3.05'
+  IRON_TRAPDOOR:
+    sell: '5.79'
+  ITEM_FRAME:
+    sell: '10.04'
+  JACK_O_LANTERN:
+    sell: '1.72'
+  JUKEBOX:
+    sell: '16.1'
+  JUNGLE_BOAT:
+    sell: '1.45'
+  JUNGLE_BUTTON:
+    sell: '0.29'
+  JUNGLE_CHEST_BOAT:
+    sell: '3.96'
+  JUNGLE_DOOR:
+    sell: '0.58'
+  JUNGLE_FENCE:
+    sell: '1.47'
+  JUNGLE_FENCE_GATE:
+    sell: '1.19'
+  JUNGLE_HANGING_SIGN:
+    sell: '0.91'
+  JUNGLE_LEAVES:
+    sell: '0.75'
+  JUNGLE_LOG:
+    sell: '0.75'
+  JUNGLE_PLANKS:
+    sell: '1.12'
+  JUNGLE_PRESSURE_PLATE:
+    sell: '0.58'
+  JUNGLE_SAPLING:
+    sell: '0.75'
+  JUNGLE_SIGN:
+    sell: '0.63'
+  JUNGLE_SLAB:
+    sell: '0.9'
+  JUNGLE_STAIRS:
+    sell: '1.76'
+  JUNGLE_TRAPDOOR:
+    sell: '0.87'
+  JUNGLE_WOOD:
+    sell: '1.05'
+  KELP:
+    sell: '0.12'
+  LADDER:
+    sell: '0.36'
+  LANTERN:
+    sell: '1.63'
+  LAPIS_BLOCK:
+    sell: '17.06'
+  LAPIS_LAZULI:
+    sell: '16.29'
+  LARGE_AMETHYST_BUD:
+    sell: '1'
+  LARGE_FERN:
+    sell: '1.75'
+  LAVA_BUCKET:
+    sell: '4.6'
+  LEAD:
+    sell: '4.34'
+  LEATHER:
+    sell: '33.6'
+  LEATHER_BOOTS:
+    sell: '35.28'
+  LEATHER_CHESTPLATE:
+    sell: '70.56'
+  LEATHER_HELMET:
+    sell: '44.1'
+  LEATHER_HORSE_ARMOR:
+    sell: '25'
+  LEATHER_LEGGINGS:
+    sell: '61.74'
+  LECTERN:
+    sell: '31.88'
+  LEVER:
+    sell: '0.34'
+  LIGHTNING_ROD:
+    sell: '0.73'
+  LIGHT_BLUE_BANNER:
+    sell: '46.46'
+  LIGHT_BLUE_BED:
+    sell: '24.03'
+  LIGHT_BLUE_BUNDLE:
+    sell: '5.3'
+  LIGHT_BLUE_CANDLE:
+    sell: '3.08'
+  LIGHT_BLUE_CARPET:
+    sell: '5.15'
+  LIGHT_BLUE_CONCRETE:
+    sell: '2.16'
+  LIGHT_BLUE_CONCRETE_POWDER:
+    sell: '1.88'
+  LIGHT_BLUE_DYE:
+    sell: '1.08'
+  LIGHT_BLUE_GLAZED_TERRACOTTA:
+    sell: '6.12'
+  LIGHT_BLUE_SHULKER_BOX:
+    sell: '6.69'
+  LIGHT_BLUE_STAINED_GLASS:
+    sell: '1.69'
+  LIGHT_BLUE_STAINED_GLASS_PANE:
+    sell: '0.67'
+  LIGHT_BLUE_TERRACOTTA:
+    sell: '5.83'
+  LIGHT_BLUE_WOOL:
+    sell: '16.48'
+  LIGHT_GRAY_BANNER:
+    sell: '46.46'
+  LIGHT_GRAY_BED:
+    sell: '24.03'
+  LIGHT_GRAY_BUNDLE:
+    sell: '5.3'
+  LIGHT_GRAY_CANDLE:
+    sell: '3.08'
+  LIGHT_GRAY_CARPET:
+    sell: '5.15'
+  LIGHT_GRAY_CONCRETE:
+    sell: '2.16'
+  LIGHT_GRAY_CONCRETE_POWDER:
+    sell: '1.88'
+  LIGHT_GRAY_DYE:
+    sell: '1.08'
+  LIGHT_GRAY_GLAZED_TERRACOTTA:
+    sell: '6.12'
+  LIGHT_GRAY_SHULKER_BOX:
+    sell: '6.69'
+  LIGHT_GRAY_STAINED_GLASS:
+    sell: '1.69'
+  LIGHT_GRAY_STAINED_GLASS_PANE:
+    sell: '0.67'
+  LIGHT_GRAY_TERRACOTTA:
+    sell: '5.83'
+  LIGHT_GRAY_WOOL:
+    sell: '16.48'
+  LIGHT_WEIGHTED_PRESSURE_PLATE:
+    sell: '4.35'
+  LILAC:
+    sell: '0.25'
+  LILY_OF_THE_VALLEY:
+    sell: '0.25'
+  LILY_PAD:
+    sell: '7'
+  LIME_BANNER:
+    sell: '46.46'
+  LIME_BED:
+    sell: '24.03'
+  LIME_BUNDLE:
+    sell: '5.28'
+  LIME_CANDLE:
+    sell: '4.46'
+  LIME_CARPET:
+    sell: '5.15'
+  LIME_CONCRETE:
+    sell: '3.23'
+  LIME_CONCRETE_POWDER:
+    sell: '2.81'
+  LIME_DYE:
+    sell: '4.32'
+  LIME_GLAZED_TERRACOTTA:
+    sell: '6.3'
+  LIME_SHULKER_BOX:
+    sell: '8.07'
+  LIME_STAINED_GLASS:
+    sell: '1.87'
+  LIME_STAINED_GLASS_PANE:
+    sell: '0.74'
+  LIME_TERRACOTTA:
+    sell: '6'
+  LIME_WOOL:
+    sell: '16.48'
+  LOOM:
+    sell: '4.26'
+  MACE:
+    sell: '5255.25'
+  MAGENTA_BANNER:
+    sell: '46.46'
+  MAGENTA_BED:
+    sell: '24.03'
+  MAGENTA_BUNDLE:
+    sell: '5.3'
+  MAGENTA_CANDLE:
+    sell: '3.08'
+  MAGENTA_CARPET:
+    sell: '5.15'
+  MAGENTA_CONCRETE:
+    sell: '3.23'
+  MAGENTA_CONCRETE_POWDER:
+    sell: '2.81'
+  MAGENTA_DYE:
+    sell: '1.08'
+  MAGENTA_GLAZED_TERRACOTTA:
+    sell: '6.12'
+  MAGENTA_SHULKER_BOX:
+    sell: '6.69'
+  MAGENTA_STAINED_GLASS:
+    sell: '1.69'
+  MAGENTA_STAINED_GLASS_PANE:
+    sell: '0.67'
+  MAGENTA_TERRACOTTA:
+    sell: '5.83'
+  MAGENTA_WOOL:
+    sell: '16.48'
+  MAGMA_BLOCK:
+    sell: '8.41'
+  MAGMA_CREAM:
+    sell: '8.04'
+  MANGROVE_BOAT:
+    sell: '1.04'
+  MANGROVE_CHEST_BOAT:
+    sell: '3.52'
+  MANGROVE_FENCE:
+    sell: '1.47'
+  MANGROVE_FENCE_GATE:
+    sell: '1.19'
+  MANGROVE_HANGING_SIGN:
+    sell: '0.83'
+  MANGROVE_LEAVES:
+    sell: '0.75'
+  MANGROVE_LOG:
+    sell: '0.75'
+  MANGROVE_PLANKS:
+    sell: '0.8'
+  MANGROVE_PROPAGULE:
+    sell: '0.75'
+  MANGROVE_ROOTS:
+    sell: '0.75'
+  MANGROVE_SIGN:
+    sell: '0.47'
+  MANGROVE_SLAB:
+    sell: '0.66'
+  MANGROVE_STAIRS:
+    sell: '1.28'
+  MANGROVE_WOOD:
+    sell: '1.05'
+  MAP:
+    sell: '7.27'
+  MEDIUM_AMETHYST_BUD:
+    sell: '0.75'
+  MELON:
+    sell: '9.48'
+  MELON_SEEDS:
+    sell: '0.75'
+  MELON_SLICE:
+    sell: '0.25'
+  MILK_BUCKET:
+    sell: '4.62'
+  MINECART:
+    sell: '7.24'
+  MINER_POTTERY_SHERD:
+    sell: '7.02'
+  MOJANG_BANNER_PATTERN:
+    sell: '2625.03'
+  MOSSY_COBBLESTONE:
+    sell: '1.52'
+  MOSSY_COBBLESTONE_SLAB:
+    sell: '0.56'
+  MOSSY_COBBLESTONE_STAIRS:
+    sell: '1.62'
+  MOSSY_COBBLESTONE_WALL:
+    sell: '1.52'
+  MOSSY_STONE_BRICKS:
+    sell: '1.54'
+  MOSSY_STONE_BRICK_SLAB:
+    sell: '0.1'
+  MOSSY_STONE_BRICK_STAIRS:
+    sell: '1.64'
+  MOSSY_STONE_BRICK_WALL:
+    sell: '1.54'
+  MOSS_BLOCK:
+    sell: '0.25'
+  MOSS_CARPET:
+    sell: '0.18'
+  MOURNER_POTTERY_SHERD:
+    sell: '7.48'
+  MUD:
+    sell: '0.8'
+  MUDDY_MANGROVE_ROOTS:
+    sell: '0.75'
+  MUD_BRICKS:
+    sell: '2.26'
+  MUD_BRICK_SLAB:
+    sell: '1.19'
+  MUD_BRICK_STAIRS:
+    sell: '2.37'
+  MUD_BRICK_WALL:
+    sell: '2.37'
+  MUSHROOM_STEM:
+    sell: '0.1'
+  MUSHROOM_STEW:
+    sell: '1.28'
+  MUSIC_DISC_11:
+    sell: '18.75'
+  MUSIC_DISC_13:
+    sell: '18.75'
+  MUSIC_DISC_5:
+    sell: '236.25'
+  MUSIC_DISC_BLOCKS:
+    sell: '18.75'
+  MUSIC_DISC_CAT:
+    sell: '18.75'
+  MUSIC_DISC_CHIRP:
+    sell: '18.75'
+  MUSIC_DISC_CREATOR:
+    sell: '25'
+  MUSIC_DISC_CREATOR_MUSIC_BOX:
+    sell: '25'
+  MUSIC_DISC_FAR:
+    sell: '18.75'
+  MUSIC_DISC_MALL:
+    sell: '18.75'
+  MUSIC_DISC_MELLOHI:
+    sell: '18.75'
+  MUSIC_DISC_OTHERSIDE:
+    sell: '18.75'
+  MUSIC_DISC_PIGSTEP:
+    sell: '18.75'
+  MUSIC_DISC_PRECIPICE:
+    sell: '25'
+  MUSIC_DISC_RELIC:
+    sell: '25'
+  MUSIC_DISC_STAL:
+    sell: '18.75'
+  MUSIC_DISC_STRAD:
+    sell: '18.75'
+  MUSIC_DISC_WAIT:
+    sell: '18.75'
+  MUSIC_DISC_WARD:
+    sell: '18.75'
+  MUTTON:
+    sell: '1.5'
+  MYCELIUM:
+    sell: '2'
+  NAME_TAG:
+    sell: '0.65'
+  NAUTILUS_SHELL:
+    sell: '45'
+  NETHERITE_AXE:
+    sell: '665.23'
+  NETHERITE_BLOCK:
+    sell: '5593.5'
+  NETHERITE_BOOTS:
+    sell: '679.39'
+  NETHERITE_CHESTPLATE:
+    sell: '737.27'
+  NETHERITE_HELMET:
+    sell: '693.86'
+  NETHERITE_HOE:
+    sell: '650.76'
+  NETHERITE_HORSE_ARMOR:
+    sell: '871'
+  NETHERITE_INGOT:
+    sell: '5327.19'
+  NETHERITE_LEGGINGS:
+    sell: '722.8'
+  NETHERITE_NAUTILUS_ARMOR:
+    sell: '1250'
+  NETHERITE_PICKAXE:
+    sell: '665.23'
+  NETHERITE_SCRAP:
+    sell: '138.87'
+  NETHERITE_SHOVEL:
+    sell: '636.29'
+  NETHERITE_SPEAR:
+    sell: '636.29'
+  NETHERITE_SWORD:
+    sell: '650.61'
+  NETHERITE_UPGRADE_SMITHING_TEMPLATE:
+    sell: '48.27'
+  NETHERRACK:
+    sell: '0.05'
+  NETHER_BRICK:
+    sell: '0.06'
+  NETHER_BRICKS:
+    sell: '0.23'
+  NETHER_BRICK_FENCE:
+    sell: '0.18'
+  NETHER_BRICK_SLAB:
+    sell: '0.12'
+  NETHER_BRICK_STAIRS:
+    sell: '0.24'
+  NETHER_BRICK_WALL:
+    sell: '0.24'
+  NETHER_SPROUTS:
+    sell: '1.25'
+  NETHER_STAR:
+    sell: '350'
+  NETHER_WART:
+    sell: '3'
+  NETHER_WART_BLOCK:
+    sell: '7.09'
+  NOTE_BLOCK:
+    sell: '3.24'
+  OAK_BOAT:
+    sell: '1.45'
+  OAK_BUTTON:
+    sell: '0.29'
+  OAK_CHEST_BOAT:
+    sell: '3.96'
+  OAK_DOOR:
+    sell: '0.58'
+  OAK_FENCE:
+    sell: '1.47'
+  OAK_FENCE_GATE:
+    sell: '1.19'
+  OAK_HANGING_SIGN:
+    sell: '0.91'
+  OAK_LEAVES:
+    sell: '0.75'
+  OAK_LOG:
+    sell: '0.75'
+  OAK_PLANKS:
+    sell: '1.12'
+  OAK_PRESSURE_PLATE:
+    sell: '0.58'
+  OAK_SAPLING:
+    sell: '0.75'
+  OAK_SIGN:
+    sell: '0.63'
+  OAK_SLAB:
+    sell: '0.9'
+  OAK_STAIRS:
+    sell: '1.76'
+  OAK_TRAPDOOR:
+    sell: '0.87'
+  OAK_WOOD:
+    sell: '1.05'
+  OBSERVER:
+    sell: '5.08'
+  OBSIDIAN:
+    sell: '7.82'
+  OCHRE_FROGLIGHT:
+    sell: '1.5'
+  OMINOUS_BOTTLE:
+    sell: '3875'
+  OMINOUS_TRIAL_KEY:
+    sell: '3750'
+  ORANGE_BANNER:
+    sell: '46.46'
+  ORANGE_BED:
+    sell: '24.03'
+  ORANGE_BUNDLE:
+    sell: '5.3'
+  ORANGE_CANDLE:
+    sell: '3.08'
+  ORANGE_CARPET:
+    sell: '5.15'
+  ORANGE_CONCRETE:
+    sell: '2.16'
+  ORANGE_CONCRETE_POWDER:
+    sell: '1.88'
+  ORANGE_DYE:
+    sell: '1.08'
+  ORANGE_GLAZED_TERRACOTTA:
+    sell: '7.72'
+  ORANGE_SHULKER_BOX:
+    sell: '6.69'
+  ORANGE_STAINED_GLASS:
+    sell: '1.69'
+  ORANGE_STAINED_GLASS_PANE:
+    sell: '0.67'
+  ORANGE_TERRACOTTA:
+    sell: '5.83'
+  ORANGE_TULIP:
+    sell: '0.25'
+  ORANGE_WOOL:
+    sell: '16.48'
+  OXEYE_DAISY:
+    sell: '0.25'
+  OXIDIZED_CHISELED_COPPER:
+    sell: '0.3'
+  OXIDIZED_COPPER:
+    sell: '1.12'
+  OXIDIZED_COPPER_BULB:
+    sell: '1.44'
+  OXIDIZED_COPPER_DOOR:
+    sell: '2.35'
+  OXIDIZED_COPPER_GRATE:
+    sell: '0.3'
+  OXIDIZED_COPPER_TRAPDOOR:
+    sell: '3.52'
+  OXIDIZED_CUT_COPPER:
+    sell: '1.18'
+  OXIDIZED_CUT_COPPER_SLAB:
+    sell: '0.01'
+  OXIDIZED_CUT_COPPER_STAIRS:
+    sell: '0.01'
+  PACKED_ICE:
+    sell: '3.38'
+  PACKED_MUD:
+    sell: '2.15'
+  PAINTING:
+    sell: '8.94'
+  PALE_OAK_FENCE:
+    sell: '1.47'
+  PALE_OAK_FENCE_GATE:
+    sell: '1.19'
+  PALE_OAK_LOG:
+    sell: '0.75'
+  PALE_OAK_PLANKS:
+    sell: '1.12'
+  PALE_OAK_SLAB:
+    sell: '0.9'
+  PALE_OAK_STAIRS:
+    sell: '1.76'
+  PALE_OAK_WOOD:
+    sell: '1.05'
+  PAPER:
+    sell: '0.03'
+  PEARLESCENT_FROGLIGHT:
+    sell: '1.5'
+  PEONY:
+    sell: '0.25'
+  PHANTOM_MEMBRANE:
+    sell: '125.16'
+  PIGLIN_BANNER_PATTERN:
+    sell: '2500'
+  PIGLIN_HEAD:
+    sell: '150'
+  PINK_BANNER:
+    sell: '46.46'
+  PINK_BED:
+    sell: '24.03'
+  PINK_BUNDLE:
+    sell: '5.3'
+  PINK_CANDLE:
+    sell: '3.08'
+  PINK_CARPET:
+    sell: '5.15'
+  PINK_CONCRETE:
+    sell: '2.16'
+  PINK_CONCRETE_POWDER:
+    sell: '1.88'
+  PINK_DYE:
+    sell: '1.08'
+  PINK_GLAZED_TERRACOTTA:
+    sell: '6.12'
+  PINK_PETALS:
+    sell: '0.25'
+  PINK_SHULKER_BOX:
+    sell: '6.69'
+  PINK_STAINED_GLASS:
+    sell: '1.69'
+  PINK_STAINED_GLASS_PANE:
+    sell: '0.67'
+  PINK_TERRACOTTA:
+    sell: '5.83'
+  PINK_TULIP:
+    sell: '0.25'
+  PINK_WOOL:
+    sell: '16.48'
+  PISTON:
+    sell: '3.95'
+  PITCHER_PLANT:
+    sell: '5.19'
+  PITCHER_POD:
+    sell: '5.13'
+  PLENTY_POTTERY_SHERD:
+    sell: '7.48'
+  PODZOL:
+    sell: '2'
+  POINTED_DRIPSTONE:
+    sell: '0.25'
+  POISONOUS_POTATO:
+    sell: '15'
+  POLISHED_ANDESITE:
+    sell: '0.19'
+  POLISHED_ANDESITE_SLAB:
+    sell: '0.1'
+  POLISHED_ANDESITE_STAIRS:
+    sell: '0.19'
+  POLISHED_BASALT:
+    sell: '1.42'
+  POLISHED_BLACKSTONE:
+    sell: '0.2'
+  POLISHED_BLACKSTONE_BRICKS:
+    sell: '0.2'
+  POLISHED_BLACKSTONE_BRICK_SLAB:
+    sell: '0.1'
+  POLISHED_BLACKSTONE_BRICK_STAIRS:
+    sell: '0.2'
+  POLISHED_BLACKSTONE_BRICK_WALL:
+    sell: '0.2'
+  POLISHED_BLACKSTONE_BUTTON:
+    sell: '0.21'
+  POLISHED_BLACKSTONE_PRESSURE_PLATE:
+    sell: '0.42'
+  POLISHED_BLACKSTONE_SLAB:
+    sell: '0.1'
+  POLISHED_BLACKSTONE_STAIRS:
+    sell: '0.2'
+  POLISHED_BLACKSTONE_WALL:
+    sell: '0.2'
+  POLISHED_DEEPSLATE:
+    sell: '0.18'
+  POLISHED_DEEPSLATE_SLAB:
+    sell: '0.1'
+  POLISHED_DEEPSLATE_STAIRS:
+    sell: '0.19'
+  POLISHED_DEEPSLATE_WALL:
+    sell: '0.19'
+  POLISHED_DIORITE:
+    sell: '0.19'
+  POLISHED_DIORITE_SLAB:
+    sell: '0.1'
+  POLISHED_DIORITE_STAIRS:
+    sell: '0.19'
+  POLISHED_GRANITE:
+    sell: '0.19'
+  POLISHED_GRANITE_SLAB:
+    sell: '0.1'
+  POLISHED_GRANITE_STAIRS:
+    sell: '0.19'
+  POLISHED_TUFF:
+    sell: '0.53'
+  POLISHED_TUFF_SLAB:
+    sell: '0.27'
+  POLISHED_TUFF_STAIRS:
+    sell: '0.53'
+  POLISHED_TUFF_WALL:
+    sell: '0.53'
+  POPPED_CHORUS_FRUIT:
+    sell: '0.79'
+  POPPY:
+    sell: '0.25'
+  PORKCHOP:
+    sell: '1.5'
+  POTATO:
+    sell: '5'
+  POWDER_SNOW_BUCKET:
+    sell: '8.5'
+  POWERED_RAIL:
+    sell: '1.69'
+  PRISMARINE:
+    sell: '7.35'
+  PRISMARINE_BRICKS:
+    sell: '16.54'
+  PRISMARINE_BRICK_SLAB:
+    sell: '8.69'
+  PRISMARINE_BRICK_STAIRS:
+    sell: '17.37'
+  PRISMARINE_CRYSTALS:
+    sell: '1.75'
+  PRISMARINE_SHARD:
+    sell: '1.75'
+  PRISMARINE_SLAB:
+    sell: '3.86'
+  PRISMARINE_STAIRS:
+    sell: '7.72'
+  PRISMARINE_WALL:
+    sell: '7.72'
+  PRIZE_POTTERY_SHERD:
+    sell: '7.02'
+  PUFFERFISH:
+    sell: '1.5'
+  PUFFERFISH_BUCKET:
+    sell: '6.45'
+  PUMPKIN:
+    sell: '5'
+  PUMPKIN_PIE:
+    sell: '10.64'
+  PUMPKIN_SEEDS:
+    sell: '0.3'
+  PURPLE_BANNER:
+    sell: '46.46'
+  PURPLE_BED:
+    sell: '24.03'
+  PURPLE_BUNDLE:
+    sell: '5.3'
+  PURPLE_CANDLE:
+    sell: '3.09'
+  PURPLE_CARPET:
+    sell: '5.15'
+  PURPLE_CONCRETE:
+    sell: '3.23'
+  PURPLE_CONCRETE_POWDER:
+    sell: '2.81'
+  PURPLE_DYE:
+    sell: '1.12'
+  PURPLE_GLAZED_TERRACOTTA:
+    sell: '6.12'
+  PURPLE_SHULKER_BOX:
+    sell: '6.71'
+  PURPLE_STAINED_GLASS:
+    sell: '1.69'
+  PURPLE_STAINED_GLASS_PANE:
+    sell: '0.67'
+  PURPLE_TERRACOTTA:
+    sell: '5.83'
+  PURPLE_WOOL:
+    sell: '16.48'
+  PURPUR_BLOCK:
+    sell: '0.83'
+  PURPUR_PILLAR:
+    sell: '0.87'
+  PURPUR_SLAB:
+    sell: '0.44'
+  PURPUR_STAIRS:
+    sell: '0.87'
+  QUARTZ:
+    sell: '18.63'
+  QUARTZ_BLOCK:
+    sell: '8.69'
+  QUARTZ_BRICKS:
+    sell: '9.12'
+  QUARTZ_PILLAR:
+    sell: '9.12'
+  QUARTZ_SLAB:
+    sell: '4.56'
+  QUARTZ_STAIRS:
+    sell: '9.12'
+  RABBIT:
+    sell: '1.5'
+  RABBIT_FOOT:
+    sell: '45'
+  RABBIT_HIDE:
+    sell: '2'
+  RABBIT_STEW:
+    sell: '5.1'
+  RAIL:
+    sell: '0.56'
+  RAISER_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '51.13'
+  RAW_COPPER:
+    sell: '0.22'
+  RAW_COPPER_BLOCK:
+    sell: '2.07'
+  RAW_GOLD:
+    sell: '1.97'
+  RAW_GOLD_BLOCK:
+    sell: '18.61'
+  RAW_IRON:
+    sell: '1.32'
+  RAW_IRON_BLOCK:
+    sell: '12.41'
+  RECOVERY_COMPASS:
+    sell: '217.05'
+  REDSTONE:
+    sell: '7.92'
+  REDSTONE_BLOCK:
+    sell: '8.27'
+  REDSTONE_LAMP:
+    sell: '11.4'
+  REDSTONE_TORCH:
+    sell: '1.08'
+  RED_BANNER:
+    sell: '46.46'
+  RED_BED:
+    sell: '24.03'
+  RED_BUNDLE:
+    sell: '5.3'
+  RED_CANDLE:
+    sell: '3.08'
+  RED_CARPET:
+    sell: '5.15'
+  RED_CONCRETE:
+    sell: '2.16'
+  RED_CONCRETE_POWDER:
+    sell: '1.88'
+  RED_DYE:
+    sell: '1.08'
+  RED_GLAZED_TERRACOTTA:
+    sell: '6.12'
+  RED_MUSHROOM:
+    sell: '0.5'
+  RED_MUSHROOM_BLOCK:
+    sell: '0.02'
+  RED_NETHER_BRICKS:
+    sell: '2.04'
+  RED_NETHER_BRICK_SLAB:
+    sell: '1.07'
+  RED_NETHER_BRICK_STAIRS:
+    sell: '2.14'
+  RED_NETHER_BRICK_WALL:
+    sell: '2.14'
+  RED_SAND:
+    sell: '2'
+  RED_SANDSTONE:
+    sell: '8.4'
+  RED_SANDSTONE_SLAB:
+    sell: '4.41'
+  RED_SANDSTONE_STAIRS:
+    sell: '8.82'
+  RED_SANDSTONE_WALL:
+    sell: '8.82'
+  RED_SHULKER_BOX:
+    sell: '6.69'
+  RED_STAINED_GLASS:
+    sell: '1.69'
+  RED_STAINED_GLASS_PANE:
+    sell: '0.67'
+  RED_TERRACOTTA:
+    sell: '5.83'
+  RED_TULIP:
+    sell: '0.25'
+  RED_WOOL:
+    sell: '16.48'
+  REPEATER:
+    sell: '3.73'
+  RESIN_BLOCK:
+    sell: '3.6'
+  RESIN_BRICK:
+    sell: '3.6'
+  RESIN_BRICKS:
+    sell: '1.62'
+  RESIN_BRICK_SLAB:
+    sell: '1.62'
+  RESIN_BRICK_STAIRS:
+    sell: '1.62'
+  RESIN_CLUMP:
+    sell: '0.4'
+  RESPAWN_ANCHOR:
+    sell: '121.59'
+  RIB_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '48.27'
+  ROOTED_DIRT:
+    sell: '0.25'
+  ROSE_BUSH:
+    sell: '0.25'
+  ROTTEN_FLESH:
+    sell: '20'
+  SADDLE:
+    sell: '15'
+  SALMON:
+    sell: '1.5'
+  SALMON_BUCKET:
+    sell: '6.45'
+  SAND:
+    sell: '1.5'
+  SANDSTONE:
+    sell: '3'
+  SANDSTONE_SLAB:
+    sell: '1.58'
+  SANDSTONE_STAIRS:
+    sell: '3.15'
+  SANDSTONE_WALL:
+    sell: '3.15'
+  SCAFFOLDING:
+    sell: '0.34'
+  SCRAPE_POTTERY_SHERD:
+    sell: '8.02'
+  SCULK:
+    sell: '3'
+  SCULK_CATALYST:
+    sell: '1250'
+  SCULK_SENSOR:
+    sell: '31.25'
+  SCULK_SHRIEKER:
+    sell: '5000'
+  SCULK_VEIN:
+    sell: '0.5'
+  TURTLE_SCUTE:
+    sell: '132.5'
+  SEAGRASS:
+    sell: '1.75'
+  SEA_LANTERN:
+    sell: '16.54'
+  SEA_PICKLE:
+    sell: '1.5'
+  SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '48.33'
+  SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '51.13'
+  SHEAF_POTTERY_SHERD:
+    sell: '7.35'
+  SHEARS:
+    sell: '2.9'
+  SHELTER_POTTERY_SHERD:
+    sell: '7.48'
+  SHIELD:
+    sell: '3.19'
+  SHROOMLIGHT:
+    sell: '2'
+  SHULKER_BOX:
+    sell: '6.11'
+  SHULKER_SHELL:
+    sell: '7'
+  SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '48.33'
+  SKELETON_SKULL:
+    sell: '150'
+  SKULL_BANNER_PATTERN:
+    sell: '262.53'
+  SKULL_POTTERY_SHERD:
+    sell: '7.02'
+  SLIME_BALL:
+    sell: '5'
+  SLIME_BLOCK:
+    sell: '11.82'
+  SMALL_AMETHYST_BUD:
+    sell: '0.5'
+  SMALL_DRIPLEAF:
+    sell: '2.5'
+  SMITHING_TABLE:
+    sell: '4.06'
+  SMOKER:
+    sell: '4.65'
+  SMOOTH_BASALT:
+    sell: '1.42'
+  SMOOTH_QUARTZ:
+    sell: '9.12'
+  SMOOTH_QUARTZ_SLAB:
+    sell: '4.79'
+  SMOOTH_QUARTZ_STAIRS:
+    sell: '9.58'
+  SMOOTH_RED_SANDSTONE:
+    sell: '8.82'
+  SMOOTH_RED_SANDSTONE_SLAB:
+    sell: '4.64'
+  SMOOTH_RED_SANDSTONE_STAIRS:
+    sell: '9.27'
+  SMOOTH_SANDSTONE:
+    sell: '3.15'
+  SMOOTH_SANDSTONE_SLAB:
+    sell: '1.66'
+  SMOOTH_SANDSTONE_STAIRS:
+    sell: '3.31'
+  SMOOTH_STONE:
+    sell: '0.19'
+  SMOOTH_STONE_SLAB:
+    sell: '0.1'
+  SNIFFER_EGG:
+    sell: '5.75'
+  SNORT_POTTERY_SHERD:
+    sell: '7.48'
+  SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '48.34'
+  SNOW:
+    sell: '1.66'
+  SNOWBALL:
+    sell: '0.75'
+  SNOW_BLOCK:
+    sell: '3.15'
+  SOUL_CAMPFIRE:
+    sell: '5.45'
+  SOUL_LANTERN:
+    sell: '2.32'
+  SOUL_SAND:
+    sell: '2.5'
+  SOUL_SOIL:
+    sell: '2.5'
+  SOUL_TORCH:
+    sell: '1.04'
+  SPECTRAL_ARROW:
+    sell: '31.84'
+  SPIDER_EYE:
+    sell: '14'
+  SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '48.67'
+  SPONGE:
+    sell: '131.25'
+  SPORE_BLOSSOM:
+    sell: '0.88'
+  SPRUCE_BOAT:
+    sell: '1.45'
+  SPRUCE_BUTTON:
+    sell: '0.29'
+  SPRUCE_CHEST_BOAT:
+    sell: '3.96'
+  SPRUCE_DOOR:
+    sell: '0.58'
+  SPRUCE_FENCE:
+    sell: '1.47'
+  SPRUCE_FENCE_GATE:
+    sell: '1.19'
+  SPRUCE_HANGING_SIGN:
+    sell: '0.91'
+  SPRUCE_LEAVES:
+    sell: '0.75'
+  SPRUCE_LOG:
+    sell: '0.75'
+  SPRUCE_PLANKS:
+    sell: '1.12'
+  SPRUCE_PRESSURE_PLATE:
+    sell: '0.58'
+  SPRUCE_SAPLING:
+    sell: '0.75'
+  SPRUCE_SIGN:
+    sell: '0.63'
+  SPRUCE_SLAB:
+    sell: '0.9'
+  SPRUCE_STAIRS:
+    sell: '1.76'
+  SPRUCE_TRAPDOOR:
+    sell: '0.87'
+  SPRUCE_WOOD:
+    sell: '1.05'
+  SPYGLASS:
+    sell: '0.83'
+  STICK:
+    sell: '0.15'
+  STICKY_PISTON:
+    sell: '5.46'
+  STONE:
+    sell: '0.18'
+  STONECUTTER:
+    sell: '2.01'
+  STONE_AXE:
+    sell: '0.84'
+  STONE_BRICKS:
+    sell: '0.19'
+  STONE_BRICK_SLAB:
+    sell: '0.1'
+  STONE_BRICK_STAIRS:
+    sell: '0.19'
+  STONE_BRICK_WALL:
+    sell: '0.2'
+  STONE_BUTTON:
+    sell: '0.19'
+  STONE_HOE:
+    sell: '0.67'
+  STONE_PICKAXE:
+    sell: '0.84'
+  STONE_PRESSURE_PLATE:
+    sell: '0.38'
+  STONE_SHOVEL:
+    sell: '0.49'
+  STONE_SLAB:
+    sell: '0.1'
+  STONE_SPEAR:
+    sell: '0.49'
+  STONE_STAIRS:
+    sell: '0.19'
+  STONE_SWORD:
+    sell: '0.51'
+  STRING:
+    sell: '28'
+  STRIPPED_ACACIA_LOG:
+    sell: '0.79'
+  STRIPPED_ACACIA_WOOD:
+    sell: '1.11'
+  STRIPPED_BIRCH_LOG:
+    sell: '0.79'
+  STRIPPED_BIRCH_WOOD:
+    sell: '1.11'
+  STRIPPED_CRIMSON_HYPHAE:
+    sell: '1.11'
+  STRIPPED_CRIMSON_STEM:
+    sell: '0.79'
+  STRIPPED_DARK_OAK_LOG:
+    sell: '0.79'
+  STRIPPED_DARK_OAK_WOOD:
+    sell: '1.11'
+  STRIPPED_JUNGLE_LOG:
+    sell: '0.79'
+  STRIPPED_JUNGLE_WOOD:
+    sell: '1.11'
+  STRIPPED_OAK_LOG:
+    sell: '0.79'
+  STRIPPED_OAK_WOOD:
+    sell: '1.11'
+  STRIPPED_SPRUCE_LOG:
+    sell: '0.79'
+  STRIPPED_SPRUCE_WOOD:
+    sell: '1.11'
+  STRIPPED_WARPED_HYPHAE:
+    sell: '1.11'
+  STRIPPED_WARPED_STEM:
+    sell: '0.79'
+  SUGAR:
+    sell: '0.12'
+  SUGAR_CANE:
+    sell: '0.12'
+  SUNFLOWER:
+    sell: '0.25'
+  SWEET_BERRIES:
+    sell: '5'
+  TADPOLE_BUCKET:
+    sell: '4.87'
+  TALL_GRASS:
+    sell: '1.5'
+  TARGET:
+    sell: '16.08'
+  TERRACOTTA:
+    sell: '5.52'
+  TIDE_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '52.1'
+  TINTED_GLASS:
+    sell: '1.52'
+  TNT:
+    sell: '26.65'
+  TNT_MINECART:
+    sell: '35.58'
+  TORCH:
+    sell: '0.39'
+  TORCHFLOWER:
+    sell: '5.19'
+  TORCHFLOWER_SEEDS:
+    sell: '5.13'
+  TOTEM_OF_UNDYING:
+    sell: '300'
+  TRAPPED_CHEST:
+    sell: '3.43'
+  TRIAL_KEY:
+    sell: '2500'
+  TRIDENT:
+    sell: '45'
+  TRIPWIRE_HOOK:
+    sell: '0.95'
+  TROPICAL_FISH:
+    sell: '1.5'
+  TROPICAL_FISH_BUCKET:
+    sell: '6.45'
+  TUBE_CORAL:
+    sell: '1.25'
+  TUBE_CORAL_BLOCK:
+    sell: '4'
+  TUBE_CORAL_FAN:
+    sell: '1.5'
+  TUFF:
+    sell: '0.5'
+  TUFF_BRICKS:
+    sell: '0.53'
+  TUFF_BRICK_SLAB:
+    sell: '0.27'
+  TUFF_BRICK_STAIRS:
+    sell: '0.53'
+  TUFF_BRICK_WALL:
+    sell: '0.53'
+  TUFF_SLAB:
+    sell: '0.27'
+  TUFF_STAIRS:
+    sell: '0.53'
+  TUFF_WALL:
+    sell: '0.53'
+  TURTLE_EGG:
+    sell: '3.75'
+  TURTLE_HELMET:
+    sell: '695.63'
+  TWISTING_VINES:
+    sell: '1.5'
+  VAULT:
+    sell: '30000'
+  VERDANT_FROGLIGHT:
+    sell: '1.5'
+  VEX_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '48.33'
+  VINE:
+    sell: '1.75'
+  WARD_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '48.33'
+  WARPED_BUTTON:
+    sell: '0.21'
+  WARPED_DOOR:
+    sell: '0.42'
+  WARPED_FENCE:
+    sell: '1.47'
+  WARPED_FENCE_GATE:
+    sell: '1.19'
+  WARPED_FUNGUS:
+    sell: '1.5'
+  WARPED_FUNGUS_ON_A_STICK:
+    sell: '5.92'
+  WARPED_HANGING_SIGN:
+    sell: '0.83'
+  WARPED_HYPHAE:
+    sell: '1.05'
+  WARPED_NYLIUM:
+    sell: '1.5'
+  WARPED_PLANKS:
+    sell: '0.8'
+  WARPED_PRESSURE_PLATE:
+    sell: '0.21'
+  WARPED_ROOTS:
+    sell: '1.25'
+  WARPED_SIGN:
+    sell: '0.47'
+  WARPED_SLAB:
+    sell: '0.66'
+  WARPED_STAIRS:
+    sell: '1.28'
+  WARPED_STEM:
+    sell: '0.75'
+  WARPED_TRAPDOOR:
+    sell: '0.63'
+  WARPED_WART_BLOCK:
+    sell: '6.75'
+  WATER_BUCKET:
+    sell: '4.59'
+  WAXED_CHISELED_COPPER:
+    sell: '1.1'
+  WAXED_COPPER_BLOCK:
+    sell: '1.84'
+  WAXED_COPPER_BULB:
+    sell: '2.22'
+  WAXED_COPPER_DOOR:
+    sell: '2.96'
+  WAXED_COPPER_GRATE:
+    sell: '1.1'
+  WAXED_COPPER_TRAPDOOR:
+    sell: '4.02'
+  WAXED_CUT_COPPER:
+    sell: '0.49'
+  WAXED_CUT_COPPER_SLAB:
+    sell: '0.25'
+  WAXED_CUT_COPPER_STAIRS:
+    sell: '0.49'
+  WAXED_EXPOSED_CHISELED_COPPER:
+    sell: '1.11'
+  WAXED_EXPOSED_COPPER:
+    sell: '1.9'
+  WAXED_EXPOSED_COPPER_BULB:
+    sell: '2.26'
+  WAXED_EXPOSED_COPPER_DOOR:
+    sell: '3.07'
+  WAXED_EXPOSED_COPPER_GRATE:
+    sell: '1.11'
+  WAXED_EXPOSED_COPPER_TRAPDOOR:
+    sell: '4.18'
+  WAXED_EXPOSED_CUT_COPPER:
+    sell: '1.23'
+  WAXED_EXPOSED_CUT_COPPER_SLAB:
+    sell: '0.25'
+  WAXED_EXPOSED_CUT_COPPER_STAIRS:
+    sell: '0.5'
+  WAXED_OXIDIZED_CHISELED_COPPER:
+    sell: '1.14'
+  WAXED_OXIDIZED_COPPER:
+    sell: '2'
+  WAXED_OXIDIZED_COPPER_BULB:
+    sell: '2.34'
+  WAXED_OXIDIZED_COPPER_DOOR:
+    sell: '3.29'
+  WAXED_OXIDIZED_COPPER_GRATE:
+    sell: '1.14'
+  WAXED_OXIDIZED_COPPER_TRAPDOOR:
+    sell: '4.53'
+  WAXED_OXIDIZED_CUT_COPPER:
+    sell: '1.7'
+  WAXED_OXIDIZED_CUT_COPPER_SLAB:
+    sell: '0.27'
+  WAXED_OXIDIZED_CUT_COPPER_STAIRS:
+    sell: '0.53'
+  WAXED_WEATHERED_CHISELED_COPPER:
+    sell: '1.13'
+  WAXED_WEATHERED_COPPER:
+    sell: '1.95'
+  WAXED_WEATHERED_COPPER_BULB:
+    sell: '2.3'
+  WAXED_WEATHERED_COPPER_DOOR:
+    sell: '3.18'
+  WAXED_WEATHERED_COPPER_GRATE:
+    sell: '1.13'
+  WAXED_WEATHERED_COPPER_TRAPDOOR:
+    sell: '4.35'
+  WAXED_WEATHERED_CUT_COPPER:
+    sell: '1.38'
+  WAXED_WEATHERED_CUT_COPPER_SLAB:
+    sell: '0.26'
+  WAXED_WEATHERED_CUT_COPPER_STAIRS:
+    sell: '0.52'
+  WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '51.13'
+  WEATHERED_CHISELED_COPPER:
+    sell: '0.28'
+  WEATHERED_COPPER:
+    sell: '1.07'
+  WEATHERED_COPPER_BULB:
+    sell: '1.4'
+  WEATHERED_COPPER_DOOR:
+    sell: '2.24'
+  WEATHERED_COPPER_GRATE:
+    sell: '0.28'
+  WEATHERED_COPPER_TRAPDOOR:
+    sell: '3.36'
+  WEATHERED_CUT_COPPER:
+    sell: '1.12'
+  WEATHERED_CUT_COPPER_SLAB:
+    sell: '0.01'
+  WEATHERED_CUT_COPPER_STAIRS:
+    sell: '0.02'
+  WEEPING_VINES:
+    sell: '1.5'
+  WET_SPONGE:
+    sell: '125'
+  WHEAT:
+    sell: '5'
+  WHEAT_SEEDS:
+    sell: '0.75'
+  WHITE_BANNER:
+    sell: '46.46'
+  WHITE_BED:
+    sell: '24.03'
+  WHITE_BUNDLE:
+    sell: '5.35'
+  WHITE_CANDLE:
+    sell: '3.23'
+  WHITE_CARPET:
+    sell: '5.15'
+  WHITE_CONCRETE:
+    sell: '2.2'
+  WHITE_CONCRETE_POWDER:
+    sell: '1.91'
+  WHITE_DYE:
+    sell: '1.64'
+  WHITE_GLAZED_TERRACOTTA:
+    sell: '6.15'
+  WHITE_SHULKER_BOX:
+    sell: '6.84'
+  WHITE_STAINED_GLASS:
+    sell: '1.71'
+  WHITE_STAINED_GLASS_PANE:
+    sell: '0.68'
+  WHITE_TERRACOTTA:
+    sell: '5.86'
+  WHITE_TULIP:
+    sell: '0.25'
+  WHITE_WOOL:
+    sell: '16.48'
+  WILD_ARMOR_TRIM_SMITHING_TEMPLATE:
+    sell: '49.3'
+  WIND_CHARGE:
+    sell: '10.56'
+  WITHER_ROSE:
+    sell: '0.5'
+  WITHER_SKELETON_SKULL:
+    sell: '250'
+  WOLF_ARMOR:
+    sell: '834.75'
+  WOODEN_AXE:
+    sell: '1.18'
+  WOODEN_HOE:
+    sell: '0.89'
+  WOODEN_PICKAXE:
+    sell: '1.18'
+  WOODEN_SHOVEL:
+    sell: '0.6'
+  WOODEN_SPEAR:
+    sell: '0.6'
+  WOODEN_SWORD:
+    sell: '0.89'
+  WRITABLE_BOOK:
+    sell: '12.24'
+  YELLOW_BANNER:
+    sell: '46.46'
+  YELLOW_BED:
+    sell: '24.03'
+  YELLOW_BUNDLE:
+    sell: '5.27'
+  YELLOW_CANDLE:
+    sell: '2.99'
+  YELLOW_CARPET:
+    sell: '5.15'
+  YELLOW_CONCRETE:
+    sell: '2.15'
+  YELLOW_CONCRETE_POWDER:
+    sell: '1.87'
+  YELLOW_DYE:
+    sell: '0.72'
+  YELLOW_GLAZED_TERRACOTTA:
+    sell: '6.11'
+  YELLOW_SHULKER_BOX:
+    sell: '6.6'
+  YELLOW_STAINED_GLASS:
+    sell: '1.68'
+  YELLOW_STAINED_GLASS_PANE:
+    sell: '0.67'
+  YELLOW_TERRACOTTA:
+    sell: '5.82'
+  YELLOW_WOOL:
+    sell: '16.48'
+  ZOMBIE_HEAD:
+    sell: '150'

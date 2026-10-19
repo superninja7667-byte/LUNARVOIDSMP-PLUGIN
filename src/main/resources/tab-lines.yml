@@ -1,0 +1,7 @@
+lines:
+  rank_tag: '&f&lRank: &f&l%luckperms_prefix%'
+  online: '%animation:lunarOnline%'
+  money: '&a&lMoney: &a&l$&f&l%formatter_number_shorten_{vault_eco_balance}%'
+  ping: '&1&lPing: &f&l%ping% ms'
+  server_tps: '&4&lSERVER TPS: &f&l%tps%'
+  discord_link: '%animation:lunarDiscord%'

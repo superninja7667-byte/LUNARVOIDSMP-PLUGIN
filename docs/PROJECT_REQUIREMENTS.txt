@@ -1,0 +1,264 @@
+LUNARVOIDSMP MASTER BUILD PLAN FOR CLAUDE
+Complete consolidated requirements, GUI placement record, plugin guidance, and workflow
+
+IMPORTANT OWNER RULES
+- Do not code, modify implementation, or replace configs until the owner explicitly says they are ready and approves the plan.
+- Review actual installed plugins, versions, configurations, source code, and visual references first.
+- Keep all features discussed in the project in one master plan; do not silently remove, rename, or invent requirements.
+- The owner says “Instant RTL” was never requested. Do not include it. “Instant RTP” is not confirmed until the owner explains exactly what they want.
+- Exact GUI slot numbers are not preserved in the available notes. Never guess placements; inspect the actual screenshots and record them first.
+- Owner plays Bedrock on Meta Quest 2, may not have a PC, and wants to avoid spending money. Keep instructions accessible.
+- When making changes later, provide complete downloadable files/configs rather than isolated lines.
+- ChatGPT and Claude do not automatically share chat history; owner will copy this file and updates between them.
+
+PROJECT CONTEXT
+Server: LUNARVOIDSMP
+Host: Falix
+Platform reported in notes: Paper 26.3, but verify exact Paper build and Minecraft version.
+Bedrock access: Geyser-Spigot/Floodgate mentioned.
+Style: DonutSMP-inspired, with the owner’s own design.
+
+WORKFLOW
+1. Review plugin list/versions, configs, source project, and images. NO CODING.
+2. Identify conflicts, existing features, supported APIs, and Bedrock limitations.
+3. Complete GUI placements, settings defaults, prices, and transaction rules.
+4. Present a proposed plan and wait for explicit approval.
+5. Implement only after approval, in stages.
+6. Compile and test against actual versions before claiming it works.
+
+SHOULD CLAUDE CODE NOW?
+No. Give Claude the actual plugin list, versions, configs, source ZIP/repository, and screenshots so it can review what existing plugins already provide and recommend an architecture. Tell Claude clearly: “Review only. Do not code or change files until I explicitly approve the plan.” Some existing plugins may already handle parts of the job. Confirm APIs/versions before building replacements.
+
+PLUGIN NAMES MENTIONED (verify what is actually installed)
+Paper, Vault, PlaceholderAPI, PAPI-NumberFormatter/number formatting expansion, TAB, LuckPerms, EssentialsX, EssentialsXChat, Geyser-Spigot, Floodgate, EconomyShopGUI, zAuctionHouse, BetterRTP, CoreProtect, WorldGuard, WorldEdit, Multiverse, zMenu. There may be more.
+
+CONFIG HANDOFF
+Owner may paste YAML configs in labelled chunks, e.g. “TAB — config.yml — Part 1 of 3”. Wait until all parts arrive before reviewing the full file. Never infer missing lines from partial configs. Remind owner to redact passwords, tokens, private keys, and secrets. Owner previously hit upload limits; pasted text is acceptable.
+
+SOURCE PROJECT
+A source ZIP called LunarItemPrices_source_project.zip and GitHub repo called LunarItemPrices were mentioned. It has not been verified as compiled/tested. Earlier build attempts were blocked by missing Maven/network/DNS access. Inspect source, licence, dependency versions, and API compatibility. Do not claim it works until built and tested.
+
+REFERENCE LINKS
+MediaFire ZIP: https://www.mediafire.com/file/ynd94zsv035330o/archive%2B%2810%29.zip/file
+MediaFire YAML: https://www.mediafire.com/file/jvj45uwjtdcttmk/config%2B%284%29.yml/file
+Main Shop screenshot: https://www.mediafire.com/file/9f59ny5g3keptdz/com.oculus.vrshell-20261017-021744.jpg/file
+Player button: https://www.mediafire.com/file/jwg76f25vco5ep6/com.oculus.vrshell-20261017-021752.jpg/file
+Auction Shop button: https://www.mediafire.com/file/soi79fwvkewsvve/com.oculus.vrshell-20261017-021800.jpg/file
+Search button: https://www.mediafire.com/file/2u4up8p27jcqpet/com.oculus.vrshell-20261017-021806.jpg/file
+Settings button: https://www.mediafire.com/file/p0ek46txc6esja4/com.oculus.vrshell-20261017-021812.jpg/file
+Pay button: https://www.mediafire.com/file/0hqjefkupvxqdph/com.oculus.vrshell-20261017-021818.jpg/file
+BetterRTP config: https://drive.google.com/file/d/1WC6AzHu_AmKPTa2fYEln5fTBczSzFcWK/view?usp=sharing
+Another file: https://drive.google.com/file/d/1DWAoi51VVgeIGi1cze5bBAN63M82LV2F/view?usp=sharing
+Search GUI reference: https://pictureurl.com/api/storage/file?key=u%2Fanon%2F53cb37ab-ecc2-4359-8f2e-919fcd2b6706-com.oculus.vrshell-20261017-021732.jpg
+Auction/listing GUI references:
+https://kommodo.ai/i/Y318SSXBrZ6IxQURSnaL
+https://kommodo.ai/i/zPgkTjQpE5Jx5WbxT0zf
+https://kommodo.ai/i/ZZbHHOR20vjfZvKZhtrJ
+https://kommodo.ai/i/lr6jEeXtp553G6bM2aYi
+Sell GUI reference: https://kommodo.ai/i/SQUGmg2nFV9D0WM7bs3y
+These external links have not all been successfully inspected. Do not claim their contents are known. Exact placements must be taken from the actual images, not guessed.
+
+MAIN SHOP GUI
+- Exact title: “Shop”, not “Large Chest”.
+- Main buttons: Player, Auction Shop, Search, Settings, Pay.
+- Player: own Minecraft skin/head icon and current balance.
+- Auction Shop: opens custom Auction House.
+- Search: opens Search GUI.
+- Settings: opens Settings GUI.
+- Pay: opens player payment flow.
+- Prior screenshot summary identified Diamond, Diamond Sword, Music Disc, Golden Apple, an unidentified enchanted-looking item, Player Head, Hopper, Sign, and two Chests. The exact final placement/meaning must be verified from the screenshot. Do not assume all icons remain unchanged.
+- Keep design clean and game-native; no unrequested glow outlines or decorations.
+- Exact slot positions are not preserved in text; inspect images before implementation.
+
+AUCTION CATEGORY SHORTCUTS
+These filter listings in the main Auction Shop, not separate stock shops:
+- Diamond = Materials.
+- Cobblestone = Blocks (replaces Music Disc).
+- Enchanted Golden Apple = Food.
+- Enchanting Table = Enchanting; should support searching enchanted items.
+- Armor & Tools.
+Categories should show relevant listings. Confirm exact sorting meaning if needed. Record exact slot positions from screenshots.
+
+PURCHASE GUI
+- Title: “Shop”.
+- Nether Star = Back.
+- Emerald Block = Purchase.
+- Green stained glass = +1, +5, +10.
+- Red stained glass = -1, -5, -10.
+- Selected item displayed; a sword was mentioned as an example.
+- Same layout for all items.
+- Exact slots need screenshot confirmation.
+- Validate quantity/balance; prevent negative or excessive quantities, repeat-click double purchases, duplicate delivery, and loss. Handle full inventory/disconnect safely.
+
+SEARCH GUI
+- Opens from Search button.
+- Visual idea: storage-room background with central wooden sign labelled “Search”.
+- Owner wants sign input.
+- Partial and typo-tolerant search, closest matches first: “di” should find Diamond; “diamnd” should find Diamond.
+- Search is for Auction Shop listings unless clarified otherwise.
+- Define no-result and pagination behaviour.
+- Test sign input on actual Paper + Geyser + Floodgate + Bedrock/Quest before promising compatibility.
+
+PAY FLOW
+- Button label exactly “Pay”.
+- Opens online-player selection GUI, then sign input for amount, then payment/confirmation.
+- Exact confirmation GUI is undecided.
+- Verify Vault and economy provider.
+- Validate positive amount and balance; prevent duplicate payments and give clear success/failure messages.
+- Test sign input on Bedrock.
+
+CUSTOM AUCTION HOUSE
+- Browse, search, filter, buy, and list items.
+- zAuctionHouse is mentioned; inspect actual version/config/API before deciding integration vs independent implementation. Do not copy proprietary/internal code.
+- Categories are listing filters.
+- Still define expiry, fees/tax, cancellation, offline/expired claim flow, and buying confirmation.
+
+`/ah sell <price>` CONFIRM LISTING
+- Player holds item and runs `/ah sell 2000` or `/ah sell 1000000`; no item name required.
+- GUI title exactly “Confirm Listing”.
+- Red stained-glass pane on LEFT = Cancel.
+- Green stained-glass pane on RIGHT = Confirm.
+- Centre displays item and quantity.
+- Example lore: “You're going to sell this item for $2k”. Tuff was an example, not a special hard-coded item.
+- Player inventory visible underneath where layout permits.
+- Confirm validates and lists item once.
+- Cancel/close means no listing and item untouched.
+- Prevent duplication/loss, invalid prices, race conditions, repeated clicks, disconnect/close problems.
+- Only left/right/centre placements are known; exact slots need screenshot confirmation.
+
+`/sell` GUI
+- Command `/sell`; title “Sell”.
+- Player places items in GUI.
+- Green Confirm button dynamically displays total payout and updates when items are added/removed.
+- Confirm sells included items and pays total.
+- Closing without confirming sells nothing; never auto-sell on close.
+- On close/cancel, return items safely, including full inventory/disconnect.
+- Example prices only, NOT final: 1 diamond = $500; 5 = $2,500; 10 = $5,000.
+- Reference: https://kommodo.ai/i/SQUGmg2nFV9D0WM7bs3y
+- Exact slot placements need screenshot confirmation.
+
+SELL-PRICE TOOLTIP / LunarItemPrices
+- Owner wants sell price in inventory hover tooltip, not buy price.
+- Green `$`, white amount, similar to money-tag style.
+- Per-player Emerald icon setting “Item Price” controls visibility.
+- No floating text or crosshair text.
+- Owner tried SimpleItemPrice with ProtocolLib; it did not work.
+- Investigate Paper item metadata, client protocol, Geyser translation, Bedrock capability. Do not promise inventory tooltip on Quest/Bedrock until tested.
+- Same authoritative price source and formatting as /sell.
+- Prototype uncompiled/untested.
+
+SETTINGS GUI AND `/settings`
+- Include the established settings in the Settings GUI and make them accessible through `/settings` as agreed.
+- GUI title “Settings”.
+- DonutSMP-style ON/OFF: green ON, red OFF.
+- Do not display the word “Toggle” in setting names.
+- Owner removed an extra “edit settings” option; do not add it back.
+- Persist per-player preferences where appropriate.
+- Exact setting icon slot positions are not preserved in text; inspect Settings screenshots and record placements before coding.
+- Rank Tag default OFF; other defaults need confirmation.
+
+Known settings:
+1. Notifications — purple enchanted-looking item; controls relevant shop/economy/server notifications such as purchases, payments, RTP and TPA activity; exact coverage undecided.
+2. Global Chat — ON sees global chat; OFF hides global chat only for that player.
+3. Death Messages — skull; ON sees death messages, OFF hides them only for that player.
+4. Money Tag — ON lets viewer see everyone’s money tags above heads; OFF hides them for that viewer.
+5. Money — show/hide Money scoreboard line for that viewer.
+6. Discord Link — show/hide Discord scoreboard line for that viewer.
+7. Online — show/hide online count line for that viewer.
+8. Rank Tag — Armor Stand; default OFF. OFF should make rank prefixes/name tags look normal and hide Rank scoreboard line for that viewer; ON restores. Verify TAB/LuckPerms capability.
+9. Ping — Echo Shard; show/hide Ping scoreboard line; default unknown.
+10. TPA Request — Paper; exact behaviour/default unknown.
+11. TNT Particles — TNT; scope/default unknown.
+12. End Crystal Particles — End Crystal; scope/default unknown.
+13. Auto TPA — Light Block; exact behaviour/default unknown.
+14. Phantom Spawning — Phantom Membrane; scope/default unknown.
+15. Mob Spawning — Zombie Head; scope/default unknown.
+16. Server TPS — Redstone Block; intended to control TPS scoreboard line; default unknown.
+17. Item Price — Emerald; controls sell-price tooltip.
+18. Scoreboard — Hanging Sign; exact behaviour/default unknown.
+Do not add “Instant RTL.” Owner says never requested it. Do not treat “Instant RTP” as confirmed until the owner defines what it should do. Do not invent defaults or setting scope.
+
+SCOREBOARD — DO NOT REDESIGN
+Known contents:
+- `LUNARVOIDSMP.FALIX.GG`
+- Discord link/info
+- divider
+- Player label + username (label bold, username normal)
+- Rank
+- Online
+- Money
+- Ping
+- TPS
+Placeholder previously mentioned:
+`%formatter_number_shorten_{vault_eco_balance}%`
+Verify syntax against installed PlaceholderAPI/number-formatting expansion.
+Per-player settings may hide lines for that viewer; preserve layout/order.
+Rank Tag OFF should hide Rank line and normalize rank/name display for that viewer if plugins support it.
+Config names mentioned:
+`/mnt/data/LUNARVOIDSMP_TAB_config_PLAYER_LABEL_BOLD.yml`
+`/mnt/data/LUNARVOIDSMP_animations_PLAYER_LABEL_BOLD.yml`
+Contents need inspection before editing.
+
+RTP / TPA
+- BetterRTP mentioned; config link above.
+- RTP success message should not show teleport coordinates.
+- Unresolved: hide coordinates only for the teleporting player or for everyone?
+- Verify BetterRTP version/config.
+- TPA plugin name/version, commands, accept/deny/cancel, timeouts, and relationship to Notifications/Auto TPA are unconfirmed.
+- “Instant RTL” is not requested. Ask what “Instant RTP” means before including a feature by that name.
+
+ECONOMY / SAFETY
+- Vault mentioned; actual economy provider/version unverified.
+- One price source of truth.
+- Validate all transactions.
+- Prevent double charge, duplicate payout/delivery, and item loss.
+- Handle full inventory, GUI close/cancel, disconnect, repeated clicks, restarts, and failure states.
+- Never silently destroy items or money.
+- Clear success/failure messages.
+- Price limits, fees/tax, and permissions need owner approval.
+
+BEDROCK / GEYSER
+- Owner uses Bedrock on Meta Quest 2.
+- Test GUI interactions, player skin/head icon, sign input, and item tooltips on actual Paper + Geyser + Floodgate.
+- Java assumptions may not work on Bedrock.
+- Do not require a PC or paid tool.
+
+OPEN QUESTIONS BEFORE CODING
+1. Exact Paper/Minecraft version.
+2. Installed plugin list and versions, especially Vault provider, zAuctionHouse, EconomyShopGUI, TAB, LuckPerms, PlaceholderAPI, Geyser, Floodgate, BetterRTP, and TPA plugin.
+3. Final item buy/sell prices and sellable items.
+4. Auction expiry, fees/tax, cancellation, expired-item claim flow.
+5. Pay confirmation design and amount rules.
+6. Search no-results, pagination, and search scope.
+7. Settings defaults/scope except Rank Tag OFF; clarify TPA Request, Auto TPA, particles, Phantom/Mob Spawning, TPS, Scoreboard.
+8. Exact GUI slot placements from screenshots.
+9. What the owner means by Instant RTP, if they want it at all.
+10. RTP coordinate message scope.
+11. Rank Tag behaviour across chat, above-head names, scoreboard, and Bedrock.
+12. Tooltip fallback if actual inventory tooltip is unsupported.
+
+TEST PLAN
+- Compile against exact Paper version and verify dependencies.
+- Test every GUI title, icon, placement, navigation, and close/back/cancel path.
+- Test search typo matching, no results, pagination, sign input.
+- Test purchase quantities, balance, full inventory, repeated clicks.
+- Test Pay selection, sign input, confirmation, balance, duplicate prevention.
+- Test `/ah sell <price>` valid/invalid price, cancel, confirm, close, full inventory, disconnect, repeated clicks.
+- Test auction lifecycle/integration.
+- Test /sell add/remove, live total, confirm, close/cancel, full inventory, disconnect.
+- Test tooltip and Item Price setting on Java and Bedrock/Quest.
+- Test every setting independently and ensure viewer-only options do not affect other players.
+- Test scoreboard without redesign.
+- Test RTP and TPA behaviour.
+- Restart and verify settings/listings/transactions persist safely.
+- Only claim complete after actual tests.
+
+INSTRUCTIONS TO CLAUDE
+1. Read this file fully.
+2. Review only; no coding yet.
+3. Ask for and inspect the real plugin list/versions, configs, source, and screenshots.
+4. Report which existing plugins already handle each requirement, what can be configured, what can be integrated via supported APIs, and what truly needs custom code.
+5. Record exact GUI placements from screenshots. Never invent slot numbers.
+6. Keep confirmed requirements separate from unresolved questions.
+7. Do not include “Instant RTL”; owner says it was never requested. Clarify “Instant RTP” before treating it as a confirmed feature.
+8. Wait for explicit owner approval before coding.

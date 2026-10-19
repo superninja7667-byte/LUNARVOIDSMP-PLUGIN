@@ -1,0 +1,43 @@
+name: LunarVoidSMP
+version: 0.6.2-test
+main: gg.lunarvoidsmp.LunarPlugin
+api-version: '26.3'
+description: Custom LUNARVOIDSMP menus, economy workflows, auctions and preferences.
+depend: [Vault]
+softdepend: [Essentials, PlaceholderAPI, TAB, LuckPerms, BetterRTP, Geyser-Spigot, floodgate]
+commands:
+  shop:
+    description: Open Shop
+  sell:
+    description: Open Sell
+  ah:
+    description: Open Shop auctions or list the held stack
+    usage: /ah [sell <price>|claim|mine|cancel <listing-id>|sort <recent|highest|lowest>|page <number>]
+  pay:
+    description: Choose an online player to gift money from your balance
+    usage: /pay
+  settings:
+    description: Open Settings
+  lunar:
+    description: Extra navigation, claims and administrator diagnostics
+    usage: /lunar <pay|search|catalog|claim|status|review>
+  tpa:
+    description: LunarVoidSMP tpa
+  tpahere:
+    description: LunarVoidSMP tpahere
+  tpaccept:
+    description: LunarVoidSMP tpaccept
+  tpdeny:
+    description: LunarVoidSMP tpdeny
+  tpacancel:
+    description: LunarVoidSMP tpacancel
+  tpatoggle:
+    description: LunarVoidSMP tpatoggle
+  rtp:
+    description: LunarVoidSMP rtp
+  maintenance:
+    description: Built-in maintenance mode
+permissions:
+  lunar.admin:
+    description: View integration status and interrupted transaction IDs
+    default: op

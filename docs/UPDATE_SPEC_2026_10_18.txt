@@ -1,0 +1,102 @@
+LUNARVOIDSMP - UPDATE SPEC (plain text, from the full design chat, 2026-10-18)
+=============================================================================
+TASK FOR THE AI/DEVELOPER READING THIS
+Update the existing LunarVoidSMP Paper plugin (repo already contains the 0.5.0-test source; Java 21+, Paper API 26.3, Maven pom.xml, Vault required).
+Implement everything below. Player base joins from Java AND Bedrock (Geyser + Floodgate). The server owner cannot build locally (plays on a Meta Quest),
+so produce changes that compile, keep the existing unit tests passing, add tests for new pure logic, and keep existing behavior that already works.
+A second file, LUNARVOIDSMP_REFERENCE_DATA.txt, holds the TAB config/animations, SimpleTPA/Maintenance configs and the full sell price table.
+Priority order if time is short: sections 1-4 first, then 5, then 7, then 6, then skins.
+
+CODE MAP (existing, src/main/java/gg/lunarvoidsmp)
+LunarPlugin (main, commands: shop, sell, ah, pay, settings, lunar), Menus (all GUIs), Prices / core.SellValue (sell pricing), Preferences + core.PreferencePolicy (per-player settings),
+SpawnPreferences + core.SpawnPolicy (mob/phantom settings), NightVision + core.ManagedEffect, ItemPriceTooltip + PriceDisplay + core.InventoryPriceSlots,
+RequestNotifications + core.NotificationWindow, EssentialsTpa + core.AutoTpa + EssentialsMessages, TabScoreboards (talks to TAB), LunarExpansion + core.PlaceholderValues (%lunar_*% PAPI),
+SignInput (sign GUI), Items, core.Money, core.Store (SQLite), core.TradeService, core.Search.
+
+KNOWN ROOT CAUSES FOUND BY READING THE 0.5.0-test SOURCE
+- config.yml has `prices: {}` (EMPTY). That is why /sell shows $0 and cannot sell. Fill it from the price table in the reference file (material -> money per item).
+- Auction/sort/page control slots are -1 in config, so the browse screen renders a blank grid with no buttons. The navigation row must always be built.
+- Pay and listing flows are intentionally blocked until config slots/limits are set ("Pay confirmation positions still need your design", "Auction limit and fee still need to be configured").
+- Scoreboard line settings do nothing because the owner's TAB config never references %lunar_*% placeholders; only the whole-scoreboard toggle (via TAB API) works.
+- Heads use setOwningPlayer: fine on Java, no skin on Bedrock menus (Geyser limitation).
+
+## 1. Auction shop (/ah, hopper "Shop")
+- **Browse screen**: title `Auction (Page N)`. 5 rows (45 slots) of listings, newest first by default. Empty slots stay empty (no panes) when nobody has listed.
+- **Bottom row, only our buttons**: slot 47 cauldron `Filter` / `Click to change` with options Default, Lowest Price, Highest Price, Recently Listed (current highlighted, click cycles); slot 51 chest `Your Items` / `Click to view`; slot 53 `Next page` / `Click to view next page`; slot 45 `Previous page` (page 2+ only, assumed).
+- This bar must appear on EVERY shop screen. Bug: screens opened blank because Sort/Prev/Next slots were -1 in config.
+- **Quick Search**: ender chest button. Position: owner said "add it without moving anything" -> main Shop menu bottom row: Shop 48, Search 49, Settings 50, Your Items chest 51, **Ender Chest 52**, Pay 53. Name `Quick Search`, line `Click to search`.
+- **Search is per tab**: in Pay it searches online players; in the auction shop it searches listings. Sign text says `Search`.
+- **Your Items**: title `Auction -> Your Items`, 6 rows, all the player's active listings; unused slots are red panes (kept on purpose); a sold listing disappears. Click-to-withdraw behavior was asked but not answered - open question.
+- **/ah sell <price>** opens `Confirm Listing` (3 rows) and nothing else: red Cancel pane slot 11 (`Cancel` / `Click to cancel the sale`), held stack slot 13 (name + `You're going to sell this item for $ 1K`, green $), green Confirm pane slot 15 (`Confirm` / `Click to sell`). Exit/close = cancel. Whole stack at the typed total price (assumed). Listings never expire (no Time Left line).
+- **Buying**: `Confirm Purchase` (3 rows): red Cancel 11 (`Click to cancel`), item 13 with name, `Price` (green) and `Seller` (aqua), green Confirm 15 (`Click to buy`). Replaces the old broken layout.
+- Listing limit and fee were never decided (blocked flow) - still open.
+
+## 2. Pay
+- Click a player's head -> sign opens titled `Amount` -> money is sent the moment they press enter or leave the sign. **No confirmation menu.** Invalid/blank amount, not enough money, or target offline: nothing sent, chat message. Success: chat message to both.
+- Balance item reads `Money` with a green `$` and the amount.
+- Pay menu needs the same bottom navigation row as the shop.
+- Bedrock players' heads show no skin on Bedrock (Java is fine). Depends on Geyser; verify on the test server, fall back to a clean icon if needed (ask owner first).
+
+## 3. /sell (sell GUI)
+- Bug: GUI opens but cannot sell and shows `$ 0`. Wanted: place items in, live total on the green button (`$ X` / `Click to sell items`), click to sell, pay exactly the EconomyShopGUI sell price per item, nothing else.
+- Prices: `docs/SELL_PRICES_FROM_ECONOMYSHOPGUI.yml` (from EconomyShopGUI 7.3.2, the 26.1 shop files). Excluded variants: enchanted books, potions, splash/lingering potions, tipped arrows (one material, many prices). INK_SAC kept at the lower of two prices (1.25).
+- Owner retracted the "worlds tab" idea: there is NO world line on the scoreboard and NO world setting.
+
+## 4. Settings menu (all settings only affect the player who sets them)
+| Setting | State | Wanted |
+|---|---|---|
+| Global Chat | works | keep |
+| Night Vision | works | keep |
+| Auto TPA | works | keep |
+| Death Messages | works | hides everyone's death messages for that player only |
+| Notifications | broken | OFF turns off everything the plugin shows in chat for that player (listing/sale/pay notices and similar); commands like /ah sell open a GUI and print nothing |
+| Mob Spawning | toggles, does nothing | per-player natural mob spawn control |
+| Phantom Spawning | toggles, does nothing | per-player phantom control |
+| Item Price | cannot toggle, no price shown | price tooltip on items, per player |
+| End Crystal / TNT Particles | wrong | hide the explosion animation for that player (TNT currently hides only particles; End Crystal toggle can't be seen working) |
+| Server TPS and other scoreboard lines | do nothing | work through our own TAB |
+| TPA Request | - | the accept/deny message for incoming requests, from our own TPA |
+| Rank Tag | - | controls scoreboard Rank line AND rank on name tags (default OFF) |
+| Money Tag | - | money under name tags |
+| **Instant RTP (new)** | new | ender pearl icon in Settings, free slot between TNT Particles and Item Price |
+- Per-viewer packet work (item price tooltip, explosion animation) probably needs PacketEvents; verify at build time.
+
+## 5. TPA, RTP and spawns (own implementation)
+- Own TPA modeled on SimpleTPA 1.6 (`references/uploaded-configs/SimpleTPA-1.6-config.yml`): /tpa, /tpahere, /tpaccept [player], /tpdeny [player], /tpacancel, /tpatoggle; cooldown 30s, request timeout 60s; request received message `<player> sent you a TPA-Request! /tpaccept or /tpdeny`; make accept/deny clickable (assumed). Replaces Essentials TPA.
+- **Instant RTP**: teleports instantly (no 5 second wait) to a random safe spot within **20,000 blocks of spawn** in the world.
+- **Random respawn on every death**, except players with a bed/respawn anchor spawn who respawn there.
+- **First join** spawns at a random spot; later joins keep the logout position.
+- Replaces BetterRTP.
+
+## 6. TAB replacement (our own tab list, name tags, scoreboard)
+- Spec = the uploaded TAB files in `references/uploaded-configs/tab/`. Ship switched OFF by default; remove the TAB jar only after it matches.
+- Scoreboard (animated title lunarServer, divider, Player, Rank, Online, Money, Ping, SERVER TPS, divider, animated Discord line) with exact colors and hex gradients; per-line toggles built in: Money, Online, Ping, TPS, Discord Link, Rank Tag.
+- Tab list: header = animated LunarVoid text, footer = animated Discord text (assumed - the config referenced missing animations lunarTitle/discordSweep); LuckPerms prefix/suffix; ping numbers; sort smp_owner, smp_manager, admin, mod, trusted, vip1, member, default, then A-Z.
+- Name tags: rank tags, green `$` money under names, collision on. Display names: world -> Main World, lifesteal_world -> Lifesteal; vanished label.
+- Read LuckPerms, Vault and Essentials directly (no PlaceholderAPI needed).
+- Commands to keep (proposed, unconfirmed): reload, group/player prefix editing, nametag show/hide, `/sbd` toggle, parse.
+- Known TAB warnings in the old setup: belowname returned decimals (use whole-number balance), `static-number` unknown key, `lunarServer` interval 120 -> 100.
+
+## 7. Other features
+- **Number formatter** (replaces the old PAPI NumberFormatter 1.7.0 jar): units K, M, B, T, Q, P, E, Z, Y, one decimal; also answer `%formatter_number_shorten_...%`; used everywhere.
+- **Maintenance mode** (replaces Maintenance plugin, which throws NoSuchFieldError on this Paper): reference files in `references/uploaded-configs/maintenance/`. Features used: toggle, kick message, whitelist, server list MOTD/count/hover text, timers with broadcasts. Question open: are timers needed? Fix typo `#fffff` in timer gradient.
+- **Skins** (replace SkinsRestorer): wanted to update a player's skin on join and when it changes, Java and Bedrock. Needs verification of online/offline mode and Geyser/Floodgate behavior. Own code only.
+- **PlaceholderAPI**: owner wants same commands in our plugin; assistant recommended keeping PAPI. Undecided.
+- **Permissions** (from LuckPerms backup dated 2026-10-10): smp_owner 500, smp_manager 400, admin 300, mod 200, trusted 25, vip1 20, default 10. Reload/admin commands for owner and manager only; skin command for everyone.
+- Console noise: Maintenance plugin error is not ours. Subtitle text `block.bubble_column.upwards_ambient` on Astro's Java client is a client issue.
+
+## 8. Suggested build order
+1. Shop/sell/pay/settings fixes (sections 1-4), spawn controls, notifications.
+2. Own TPA, Instant RTP, random spawn/respawn (section 5).
+3. Number formatter, maintenance mode.
+4. Own TAB (section 6), behind an off switch.
+5. Skins, PAPI decision.
+
+## 9. Open questions
+Withdraw-on-click in Your Items; listing limit and fee;  clickable TPA; command list for TAB; timers in maintenance; PAPI keep or replace; Bedrock head fallback.
+
+EXPLICIT DO-NOT LIST
+- No world line on the scoreboard and no world setting.
+- No confirmation menu for /pay (sign amount is final).
+- /ah sell prints nothing; it only opens the Confirm Listing GUI.
+- Listings never expire (no Time Left line).

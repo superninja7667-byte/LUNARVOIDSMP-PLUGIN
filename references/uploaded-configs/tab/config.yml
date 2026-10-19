@@ -1,0 +1,154 @@
+header-footer:
+  enabled: true
+  designs:
+    default:
+      header:
+      - '&8&m                                        &r'
+      - '%animation:lunarTitle%'
+      - '&r&7Online players: &f%online%'
+      - '&8&m                                        &r'
+      footer:
+      - '%animation:discordSweep%'
+      - '&7Ping: &f%ping%ms &8| &7TPS: &a%tps%'
+      - '&8&m                                        &r'
+tablist-name-formatting:
+  enabled: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  sorting-types:
+  - GROUPS:smp_owner,smp_manager,admin,mod,trusted,vip1,member,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld'
+playerlist-objective:
+  enabled: true
+  value: '%ping%'
+  fancy-value: '&7Ping: %ping%'
+  title: TAB
+  render-type: INTEGER
+  disable-condition: '%world%=disabledworld'
+belowname-objective:
+  enabled: true
+  value: '%vault_eco_balance%'
+  fancy-value: '&a$&f%formatter_number_shorten_{vault_eco_balance}%'
+  fancy-value-default: NPC
+  title: ''
+  disable-condition: '%world%=disabledworld'
+  view-distance: 10
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars: {}
+scoreboard:
+  enabled: true
+  toggle-command: /sbd
+  remember-toggle-choice: false
+  hidden-by-default: false
+  delay-on-join-milliseconds: 0
+  scoreboards:
+    scoreboard-1:
+      display-condition: '%world%!=disabled'
+      title: '%animation:lunarServer%'
+      lines:
+      - '%animation:lunarDivider%'
+      - '&f&lPlayer: &f%player%'
+      - '&f&lRank: &f&l%luckperms_prefix%'
+      - '%animation:lunarOnline%'
+      - '&a&lMoney: &a&l$&f&l%formatter_number_shorten_{vault_eco_balance}%'
+      - '&1&lPing: &f&l%ping% ms'
+      - '&4&lSERVER TPS: &f&l%tps%'
+      - '%animation:lunarDivider%'
+      - '%animation:lunarDiscord%'
+      static-number: -1
+layout:
+  enabled: false
+ping-spoof:
+  enabled: false
+  value: 0
+global-playerlist:
+  enabled: false
+  update-latency: false
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: false
+  locale: en-US
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%world%':
+    world: Main World
+    lifesteal_world: Lifesteal
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
+placeholder-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%vault_eco_balance%': 500
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- smp_owner
+- smp_manager
+- admin
+- mod
+- trusted
+- vip1
+- member
+- default
+permission-refresh-interval: 1000
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+  useSSL: true
+proxy-support:
+  enabled: true
+  channel-name-suffix: custom
+  type: PLUGIN
+  plugin:
+    name: RedisBungee
+  redis:
+    url: redis://:password@localhost:6379/0
+  rabbitmq:
+    exchange: plugin
+    url: amqp://guest:guest@localhost:5672/%2F
+components:
+  minimessage-support: true
+  disable-shadow-for-heads: true
+config-version: 7
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+compensate-for-packetevents-bug: false
+use-bukkit-permissions-manager: false
+use-online-uuid-in-tablist: true
