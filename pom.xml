@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>gg.lunarvoidsmp</groupId><artifactId>lunarvoidsmp</artifactId><version>0.6.3-test</version>
+  <groupId>gg.lunarvoidsmp</groupId><artifactId>lunarvoidsmp</artifactId><version>0.6.2-test</version>
   <properties><maven.compiler.release>25</maven.compiler.release><project.build.sourceEncoding>UTF-8</project.build.sourceEncoding></properties>
   <repositories>
     <repository><id>codemc-releases</id><url>https://repo.codemc.io/repository/maven-releases/</url></repository>
