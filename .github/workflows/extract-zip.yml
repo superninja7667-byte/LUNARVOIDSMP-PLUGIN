@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Extract project ZIP
         run: |
           set -e
-          ZIP="LUNARVOIDSMP-0.6.2-test-GitHub-Project.zip"
+          ZIP="LUNARVOIDSMP-0.6.3-test-GitHub-Project.zip"
           test -f "$ZIP"
           mkdir -p /tmp/project
           unzip -q "$ZIP" -d /tmp/project
@@ -37,8 +37,7 @@ jobs:
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # The GitHub Actions token cannot create workflow files without the separate workflows permission.
-          # Keep the build workflow out of this extraction commit; add it separately afterward.
+          # Preserve the repository build workflow; the ZIP is used for project source/config.
           rm -f .github/workflows/build.yml
           git add -A
           if git diff --cached --quiet; then
