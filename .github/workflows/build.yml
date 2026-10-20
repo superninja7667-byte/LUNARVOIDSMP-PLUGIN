@@ -26,6 +26,6 @@ jobs:
       - name: Upload JAR artifact
         uses: actions/upload-artifact@v4
         with:
-          name: LUNARVOIDSMP-0.6.2-test
-          path: target/lunarvoidsmp-0.6.2-test.jar
+          name: LUNARVOIDSMP-0.6.3-test
+          path: target/lunarvoidsmp-0.6.3-test.jar
           if-no-files-found: error
