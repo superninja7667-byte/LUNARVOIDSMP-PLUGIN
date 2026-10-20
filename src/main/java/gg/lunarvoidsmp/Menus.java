@@ -133,19 +133,24 @@ final class Menus implements Listener {
         for(String line:lines) lore.add(text(line)); meta.lore(lore); item.setItemMeta(meta);
     }
     void listing(Player player,long price) throws SQLException {
-        if(price<=0) throw new IllegalArgumentException("Price must be greater than $0.");
         ItemStack snapshot=player.getInventory().getItemInMainHand().clone();
         if(snapshot.getType().isAir()) throw new IllegalArgumentException("Hold the stack you want to list.");
-        p.requireEconomy();
         int slot=player.getInventory().getHeldItemSlot();
-        String item=p.items.take(player,slot,snapshot,"CLAIM");
-        try {
-            p.store.list(item,player.getUniqueId().toString(),price,p.getConfig().getInt("auction.max-listings-per-player",0));
-        } catch(SQLException | RuntimeException e) {
-            try { p.items.claim(player); } catch(SQLException recovery) { e.addSuppressed(recovery); }
-            throw e;
-        }
-        p.notice(player,"Listed "+snapshot.getAmount()+"x "+name(snapshot)+" for "+Money.full(price)+".");
+        Menu menu=new Menu(player,"CONFIRM_LISTING",27,"Confirm Listing");
+        ItemStack preview=snapshot.clone(); append(preview,"You're going to sell this item for $ "+Money.shortAmount(price));
+        var lm=preview.getItemMeta(); var ll=new ArrayList<Component>(lm.lore()); ll.set(ll.size()-1,text("You're going to sell this item for ").append(Component.text("$ ",NamedTextColor.GREEN)).append(text(Money.shortAmount(price)))); lm.lore(ll); preview.setItemMeta(lm);
+        button(menu,11,icon(Material.RED_STAINED_GLASS_PANE,"Cancel","Click to cancel the sale"),player::closeInventory);
+        button(menu,13,preview,null);
+        button(menu,15,icon(Material.LIME_STAINED_GLASS_PANE,"Confirm","Click to sell"),()-> {
+            if(menu.busy) return;
+            
+            p.requireEconomy(); menu.busy=true;
+            String item=p.items.take(player,slot,snapshot,"CLAIM");
+            try { p.store.list(item,player.getUniqueId().toString(),price,p.getConfig().getInt("auction.max-listings-per-player")); }
+            catch(SQLException | RuntimeException e) { try { p.items.claim(player); } catch(SQLException recovery) { e.addSuppressed(recovery); } throw e; }
+            player.closeInventory();
+        });
+        player.openInventory(menu.inventory);
     }
     private void auctionBuy(Player player,Store.Listing listing) throws SQLException {
         if(listing.owner().equals(player.getUniqueId().toString())) throw new IllegalArgumentException("You cannot buy your own listing.");
