@@ -4,11 +4,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SellValueTest {
-    @Test void capAppliesToEachItemAndWholeStacksCanExceedThirtyThousand() {
+    @Test void capAppliesAtTenMillionPerItemAndWholeStacksCanExceedTenMillion() {
         assertEquals(3_000_000,SellValue.stack(Money.parse("30000"),1));
         assertEquals(192_000_000,SellValue.stack(Money.parse("30000"),64));
         assertEquals(1_000_001,SellValue.stack(Money.parse("10000.01"),1));
-        assertThrows(IllegalArgumentException.class,()->SellValue.stack(Money.parse("30000.01"),1));
+        assertEquals(1_000_000_000,SellValue.stack(Money.parse("10000000"),1));
+        assertThrows(IllegalArgumentException.class,()->SellValue.stack(Money.parse("10000000.01"),1));
     }
     @Test void preservesCentsAndRejectsNonpositivePricesOrCounts() {
         assertEquals(192,SellValue.stack(Money.parse("0.03"),64));
