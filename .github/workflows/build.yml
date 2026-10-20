@@ -1,6 +1,9 @@
 name: Build LUNARVOIDSMP plugin
 
 on:
+  push:
+    branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
