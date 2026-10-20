@@ -93,7 +93,7 @@ public final class LunarPlugin extends JavaPlugin implements Listener {
                 }
                 if(notifications!=null) notifications.expire();
             },1L,20L);
-            getLogger().info("LunarVoidSMP 0.6.1-test loaded. Sell prices imported when empty. Auction limit and fee still require configuration. Check /lunar status.");
+            getLogger().info("LunarVoidSMP 0.6.2-test loaded. Sell prices imported when empty. Auction listings unlimited; listing fee 0%. Check /lunar status.");
             for(String review:store.reviews()) getLogger().warning("Needs reconciliation: "+review);
         } catch(Exception e) {
             getLogger().log(Level.SEVERE,"Could not start safely",e); getServer().getPluginManager().disablePlugin(this);
@@ -171,6 +171,8 @@ public final class LunarPlugin extends JavaPlugin implements Listener {
                 getConfig().set(path,entry.getValue()); changed=true;
             }
         }
+        if(getConfig().getInt("auction.max-listings-per-player",10)!=0) { getConfig().set("auction.max-listings-per-player",0); changed=true; }
+        if(getConfig().getDouble("auction.fee-percent",0)!=0.0) { getConfig().set("auction.fee-percent",0); changed=true; }
         if(changed) saveConfig();
     }
     private void initializeSettingsIntegrations() {
