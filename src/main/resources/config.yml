@@ -12,9 +12,9 @@ prices: {}
 
 auction:
   # Listings have no expiration time. Old duration-seconds values are ignored.
-  max-listings-per-player: 10
+  max-listings-per-player: 0
   fee-percent: 0
-  # Limit and fee must be chosen before creating listings. Fee applies on a sale.
+  # A limit of 0 means unlimited listings. Fee applies on a sale.
   buy-confirmation-layout: purchase
   # Purchases use the documented 3-row confirmation GUI and buy the whole stack.
 
