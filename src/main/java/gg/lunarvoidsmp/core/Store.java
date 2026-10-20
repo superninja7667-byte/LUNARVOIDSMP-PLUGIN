@@ -132,11 +132,13 @@ public final class Store implements AutoCloseable {
         update("INSERT INTO reconciliations(record,decision,operator,reason,created) VALUES(?,?,?,?,?)",id,decision,operator,reason,System.currentTimeMillis());
     }
     public String list(String itemId, String owner, long price, int limit) throws SQLException {
-        if(price<=0 || limit<=0) throw new IllegalArgumentException("Invalid listing rules.");
+        if(price<=0) throw new IllegalArgumentException("Listing price must be greater than zero.");
         return atomic(() -> {
             long now=System.currentTimeMillis();
-            try (PreparedStatement p=connection.prepareStatement("SELECT count(*) FROM listings WHERE owner=? AND state IN ('ACTIVE','RESERVED')")) {
-                p.setString(1,owner); try(ResultSet r=p.executeQuery()) { if(r.next() && r.getInt(1)>=limit) throw new IllegalArgumentException("Listing limit reached."); }
+            if(limit>0) {
+                try (PreparedStatement p=connection.prepareStatement("SELECT count(*) FROM listings WHERE owner=? AND state IN ('ACTIVE','RESERVED')")) {
+                    p.setString(1,owner); try(ResultSet r=p.executeQuery()) { if(r.next() && r.getInt(1)>=limit) throw new IllegalArgumentException("Listing limit reached."); }
+                }
             }
             if(update("UPDATE items SET purpose='AUCTION' WHERE id=? AND owner=? AND state='HELD' AND purpose='CLAIM'",itemId,owner)!=1) throw new IllegalArgumentException("Item is unavailable.");
             String id=UUID.randomUUID().toString();
