@@ -37,8 +37,6 @@ jobs:
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Preserve the repository build workflow; the ZIP is used for project source/config.
-          rm -f .github/workflows/build.yml
           git add -A
           if git diff --cached --quiet; then
             echo "No extracted changes to commit."
