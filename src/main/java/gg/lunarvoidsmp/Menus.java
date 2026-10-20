@@ -55,7 +55,7 @@ final class Menus implements Listener {
         button(menu,45,head,null);
         button(menu,13,icon(Material.DIAMOND,"Materials"),()->auctions(player,"materials","",0,"recent"));
         button(menu,21,icon(Material.DIAMOND_SWORD,"Armor & Tools"),()->auctions(player,"equipment","",0,"recent"));
-        button(menu,22,icon(Material.COBBLESTONE,"Blocks"),()->auctions(player,"blocks","",0,"recent"));
+        button(menu,22,icon(Material.END_CRYSTAL,"PVP Items"),()->auctions(player,"pvp","",0,"recent"));
         button(menu,23,icon(Material.ENCHANTED_GOLDEN_APPLE,"Food"),()->auctions(player,"food","",0,"recent"));
         button(menu,31,icon(Material.ENCHANTING_TABLE,"Enchanting"),()->auctions(player,"enchanting","",0,"recent"));
         navigation(menu,player,false);
@@ -102,7 +102,7 @@ final class Menus implements Listener {
         Menu menu=new Menu(player,"AUCTIONS",54,"Auction (Page "+(current+1)+")");
         for(int i=current*45;i<Math.min(listings.size(),(current+1)*45);i++) {
             Store.Listing listing=listings.get(i); ItemStack item=stacks.get(listing.id()).clone();
-            append(item,"Price: "+Money.full(listing.price()),"Seller: "+p.playerName(listing.owner()),"Listing: "+listing.id());
+            append(item,"Price: "+Money.full(listing.price()),"Seller: "+p.playerName(listing.owner()));
             button(menu,i-current*45,item,()->auctionBuy(player,listing));
             menu.listings.put(listing.id(),i-current*45);
         }
@@ -118,7 +118,7 @@ final class Menus implements Listener {
         boolean equipment=n.matches(".*_(SWORD|PICKAXE|AXE|SHOVEL|HOE|HELMET|CHESTPLATE|LEGGINGS|BOOTS)") || Set.of("BOW","CROSSBOW","TRIDENT","MACE","SHIELD","ELYTRA","SHEARS","FISHING_ROD").contains(n);
         boolean enchanted=m==Material.ENCHANTED_BOOK || !item.getEnchantments().isEmpty();
         return switch(category) {
-            case "blocks" -> m.isBlock(); case "food" -> m.isEdible(); case "equipment" -> equipment;
+            case "blocks" -> m.isBlock(); case "pvp" -> Set.of("END_CRYSTAL","TNT","TNT_MINECART","RESPAWN_ANCHOR","GLOWSTONE","OBSIDIAN","ENDER_PEARL","FIRE_CHARGE","FLINT_AND_STEEL","TOTEM_OF_UNDYING","SHIELD","TRIDENT","BOW","CROSSBOW").contains(n); case "food" -> m.isEdible(); case "equipment" -> equipment;
             case "enchanting" -> enchanted || Set.of(Material.ENCHANTING_TABLE,Material.ANVIL,Material.LAPIS_LAZULI,Material.EXPERIENCE_BOTTLE,Material.BOOK,Material.BOOKSHELF).contains(m);
             case "materials" -> !m.isBlock() && !m.isEdible() && !equipment && !enchanted;
             default -> true;
@@ -143,7 +143,7 @@ final class Menus implements Listener {
         button(menu,13,preview,null);
         button(menu,15,icon(Material.LIME_STAINED_GLASS_PANE,"Confirm","Click to sell"),()-> {
             if(menu.busy) return;
-            if(!p.auctionsConfigured()) throw new IllegalArgumentException("Auction listing limit and fee must be set by the owner first.");
+            
             p.requireEconomy(); menu.busy=true;
             String item=p.items.take(player,slot,snapshot,"CLAIM");
             try { p.store.list(item,player.getUniqueId().toString(),price,p.getConfig().getInt("auction.max-listings-per-player")); }
@@ -167,7 +167,7 @@ final class Menus implements Listener {
             if(menu.busy) return; menu.busy=true;
             // Closing first returns a held cursor stack before checking the buyer's actual space.
             player.closeInventory(); p.requireEconomy();
-            if(!p.auctionsConfigured()) throw new IllegalArgumentException("Auction rules are not configured.");
+            
             long fee=BigDecimal.valueOf(listing.price()).multiply(new BigDecimal(p.getConfig().getString("auction.fee-percent"))).divide(BigDecimal.valueOf(100),0,RoundingMode.DOWN).longValueExact();
             boolean ok=p.trades.buyAuction(new Store.Trade(menu.transaction,"BUY_AUCTION",player.getUniqueId().toString(),listing.owner(),listing.price(),fee,"PREPARED",listing.id()),listing.item(),()->p.items.fits(player,original));
             if(!ok) { p.notice(player,"Purchase did not complete. Contact staff if marked for review."); return; }
